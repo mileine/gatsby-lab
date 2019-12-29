@@ -9,7 +9,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     const slug = createFilePath({
       node,
       getNode,
-      base: "pages",
+      basePath: "pages",
     })
 
     // Creates new query'able field with name of 'slug'
@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark (sort: {fields: frontmatter___date, order: DESC}){
+      allMarkdownRemark (sort: { fields: frontmatter___date, order: DESC }){
         edges {
           node {
             fields{
