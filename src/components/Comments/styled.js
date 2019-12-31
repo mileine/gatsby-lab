@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const CommentsWrapper = styled.section`
   margin: auto;
@@ -12,6 +13,9 @@ export const CommentsWrapper = styled.section`
       color: var(--highlight) !important;
     }
   }
+  ${media.lessThan("large")`
+    padding: 1rem; 
+  `}
 `
 
 export const CommentsTitle = styled.h2`

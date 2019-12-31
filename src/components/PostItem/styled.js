@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import media from "styled-media-query"
+
 import { Link } from "gatsby"
 
 export const PostItemLink = styled(Link)`
@@ -28,6 +30,12 @@ export const PostItemWrapper = styled.section`
     flex-direction: column;
     justify-content: center;
   }
+
+  ${media.lessThan("large")`
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem 1rem; 
+  `}
 `
 
 export const PostItemTag = styled.div`
@@ -46,6 +54,15 @@ export const PostItemTag = styled.div`
   body#grid & {
     margin-bottom: 1.5rem;
   }
+
+  ${media.lessThan("large")`
+    border-radius: 10%;
+    padding: .2rem;
+    min-width: auto;
+    min-height: auto;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+  `}
 `
 
 export const PostItemInfo = styled.div`
@@ -57,6 +74,10 @@ export const PostItemInfo = styled.div`
     line-height: 1.1;
     margin: 0.8rem 0;
   }
+
+  ${media.lessThan("large")`
+    margin-left: 0;
+  `}
 `
 
 export const PostItemDate = styled.time`

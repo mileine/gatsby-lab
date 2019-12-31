@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import media from "styled-media-query"
+
 import { Link } from "gatsby"
 
 export const RecommendedWrapper = styled.section`
@@ -34,4 +36,8 @@ export const RecommendedLink = styled(Link)`
     content: "\\2192";
     margin-left: 0.5rem;
   }
+  ${media.lessThan("large")`
+    padding: 1rem; 
+    font-size: .8rem;
+  `}
 `

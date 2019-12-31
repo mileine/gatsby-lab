@@ -21,7 +21,7 @@ export const MenuBarWrapper = styled.aside`
     height: auto;
     width: 100%;
     bottom: 0;
-    padding: 0.2rem
+    padding: 0;
   `}
 `
 
