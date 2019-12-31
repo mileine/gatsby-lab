@@ -56,6 +56,12 @@ export const MenuBarItem = styled.span`
     }
   }
 
+  &.display {
+    ${media.lessThan("large")`
+      display: none;
+    `}
+  }
+
   &:hover {
     color: var(--highlight);
   }
