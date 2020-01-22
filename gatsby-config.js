@@ -5,10 +5,10 @@ const queries = require("./src/utils/algolia_queries")
 module.exports = {
   siteMetadata: {
     title: `Mileine's Blog`,
-    position: `Frontend UI Dev`,
-    description: `Registrando e compartilhando aprendizados ao som de Mayday.`,
+    position: `Lifelong learner`,
+    description: `I love Front-End/UI development, Yoga and Mayday 五月天. `,
     author: `@myblog`,
-    siteUrl: `https://johndoe.com.br`
+    siteUrl: `https://mileine.netlify.com/`
   },
   plugins: [
     `gatsby-plugin-transition-link`,
