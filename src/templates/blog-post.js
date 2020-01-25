@@ -4,6 +4,8 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
+import { MainContent } from '../styles/base'
+
 import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
@@ -21,9 +23,9 @@ const BlogPost = ({ data, pageContext }) => {
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
-      <S.MainContent>
+      <MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-      </S.MainContent>
+      </MainContent>
       <RecommendedPosts next={next} previous={previous} />
     </Layout>
   )
