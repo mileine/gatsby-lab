@@ -17,8 +17,6 @@ There's still so much to learn, so I'm using this project to keep practicing and
 - Netlify CMS
 - Web development best practices
 
-Blog link: [https://mileine.netlify.com/](https://mileine.netlify.com/)
-
 -------
 ## Sobre este projeto 
 
@@ -42,7 +40,5 @@ Esse curso é um excelente guia para aprender sobre:
 - Transições e animações em React
 
 Sim, é muita coisa! Por isso, continuarei usando este projeto para praticar e aprender mais sobre cada um desses tópicos. 
-
-加油！加油！
 
 Link para o  blog: [https://mileine.netlify.com/](https://mileine.netlify.com/)
