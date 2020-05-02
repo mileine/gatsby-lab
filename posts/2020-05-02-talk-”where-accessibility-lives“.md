@@ -6,7 +6,7 @@ description: >-
 date: '2019-03-07 12:51:34'
 category: dev
 background: '#637a91'
-thumbnail: assets/img/Screen Shot 2020-05-02 at 12.57.14.png
+thumbnail: assets/img/talk_acessiblity_by_derek.png
 ---
 In this talk, Derek Featherstone presents this case about a brilliant team that had to do some work on accessibility on a project they thought "it was done".
 
