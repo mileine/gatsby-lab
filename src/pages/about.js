@@ -9,7 +9,7 @@ const AboutPage = () => (
     <SEO title="About"/>
     <MainContent>
       <h1> About this blog</h1>
-      <p>This blog was developed during a <a href="https://www.udemy.com/share/101QMeB0oSeVtQ/" target="_blank">Gatsby course</a> I took by  <a href="https://willianjusten.com.br/" target="_blank">Willian Justen.</a> In this course, he teaches - step by step - how to create a blog just like his using Gatsby. I had a lot of fun as I learned a lot about many different topics such as:</p>
+      <p>This blog was developed during a <a href="https://www.udemy.com/share/101QMeB0oSeVtQ/">Gatsby course</a> I took by  <a href="https://willianjusten.com.br/">Willian Justen.</a> In this course, he teaches - step by step - how to create a blog just like his using Gatsby. I had a lot of fun as I learned a lot about many different topics such as:</p>
 
       <ul>
         <li>GraphQL</li>
