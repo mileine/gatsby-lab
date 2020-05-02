@@ -9,15 +9,7 @@ const AboutPage = () => (
     <SEO title="About"/>
     <MainContent>
       <h1> About this blog</h1>
-      <p>This blog was developed during a Gatsby course I took by  <a href="https://willianjusten.com.br/" target="_blank">Willian Justen.</a></p>
-
-      <p>You can check it at Udemy: <a href="https://www.udemy.com/share/101QMeB0oSeVtQ/" target="_blank">Crie um site PWA com React, GraphQL e Netlify CMS.</a></p>
-
-      <p>In this course, he teaches - step by step - how to create a blog just like his using Gatsby.</p>
-
-      <p>I first heard about Gatsby on a post by  <a href="https://www.taniarascia.com/" target="_blank">Tania Rascia</a>. I was so curious about what this Gatsby thing was that I had to look it up. That's when I found Willian's course. And I loved it!</p>
-
-      <p>There's still so much to learn, so I'm using this project to keep practicing topics from the course such as:</p>
+      <p>This blog was developed during a <a href="https://www.udemy.com/share/101QMeB0oSeVtQ/" target="_blank">Gatsby course</a> I took by  <a href="https://willianjusten.com.br/" target="_blank">Willian Justen.</a> In this course, he teaches - step by step - how to create a blog just like his using Gatsby. I had a lot of fun as I learned a lot about many different topics such as:</p>
 
       <ul>
         <li>GraphQL</li>
@@ -27,8 +19,10 @@ const AboutPage = () => (
         <li>Web development best practices</li>
       </ul>
 
-      <p>P.S.: I'm also using this blog to practice English. That's why you might have found a couple of mistakes or weird sentences here and there... I hope I'll get better by the time I finish playing with this project. =) </p>
+      <p>Now my goal is to turn this blog into my personal blog by customizing the layout and adding/removing some features as I keep learning. =) </p>
 
+      <blockquote>"learning is hard, and it's humbling" ( <a href="https://css-tricks.com/learning-to-learn/">Learning to learn, by Sarah Drasner</a>)</blockquote>
+     
     </MainContent>
   </Layout>
 )
