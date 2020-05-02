@@ -43,7 +43,7 @@ export const PostItemTag = styled.div`
   border-radius: 50%;
   color: var(--postColor);
   display: flex;
-  font-size: 1.3rem;
+  font-size: .8rem;
   font-weight: 700;
   justify-content: center;
   min-height: 90px;

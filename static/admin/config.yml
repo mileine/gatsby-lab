@@ -34,13 +34,13 @@ collections:
         name: "background",
         widget: "select",
         options: [
-          { label: "Jekyll", value: "#B31917" },
-          { label: 'CSS', value: '#2DA0C3' },
-          { label: 'JS', value: '#D6BA32' },
-          { label: 'HTML', value: '#EB7728' },
-          { label: 'SVG', value: '#7D669E' },
-          { label: 'Dev', value: '#637a91' },
-          { label: 'Misc', value: '#7AAB13' },
+          { label: 'design', value: '#800080' },
+          { label: 'a11y', value: '#812d8a' },
+          { label: 'css', value: '#af125a' },
+          { label: 'frontend', value: '#e7508c' },
+          { label: 'misc', value: '#0792ae' },
+          { label: 'languages', value: '#00bfb2' },
+          { label: 'log', value: '#1a5e63' },
         ]
       }
       - { label: "image", name: "thumbnail", widget: "image" }

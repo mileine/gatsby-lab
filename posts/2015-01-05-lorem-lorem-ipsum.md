@@ -2,8 +2,8 @@
 date: 2015-01-05 05:54:23
 title: Lorem lorem ipsum
 description: And I'm lorem sure lorem
-category: JS
-background: "orange"
+category: frontend
+background: "#e7508c"
 ---
 
 # Lorem ipsum

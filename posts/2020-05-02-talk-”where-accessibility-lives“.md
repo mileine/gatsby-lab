@@ -1,14 +1,16 @@
 ---
 title: '[Talk] "Where Accessibility Lives"'
-description: >-
+description: 
   A case about a brilliant team that had to do some work on accessibility on a
   project they thought "it was done".
 date: '2019-03-07 12:51:34'
-category: dev
-background: '#637a91'
+category: a11y
+background: '#812d8a'
 thumbnail: assets/img/Screen Shot 2020-05-02 at 12.57.14.png
 ---
 In this talk, Derek Featherstone presents this case about a brilliant team that had to do some work on accessibility on a project they thought "it was done".
+
+Highlights:
 
 * A **strategy** to plan for implementation on an area the team had little experience.
 * A list of common issues and suggestions on how to set priorities.
