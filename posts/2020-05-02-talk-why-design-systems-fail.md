@@ -16,3 +16,5 @@ Highlights:
   (Eg.: Prevents rework, bugs. Improves accessibility.)
 * If you are the only person fighting for it, maybe you should think if it's really suitable for your project.
 * You might not need a design system.
+
+Link: [https://www.youtube.com/watch?v=vr2-g72HRT0](https://www.youtube.com/watch?v=vr2-g72HRT0)
