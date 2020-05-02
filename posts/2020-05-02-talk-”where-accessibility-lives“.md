@@ -1,5 +1,5 @@
 ---
-title: 'Talk: ”Where Accessibility Lives“ '
+title: '[Talk] "Where Accessibility Lives"'
 description: >-
   A case about a brilliant team that had to do some work on accessibility on a
   project they thought "it was done".
