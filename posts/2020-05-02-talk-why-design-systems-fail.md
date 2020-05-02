@@ -1,7 +1,7 @@
 ---
 title: '[Talk] Why Design Systems Fail'
 description: Some thoughts on DS by Una Kravets
-date: '2020-05-02 04:57:04'
+date: '2019-03-07 04:57:04'
 category: design
 background: '#800080'
 thumbnail: assets/img/talk_why-design-systems-fail.png
