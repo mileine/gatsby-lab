@@ -1,6 +1,6 @@
 ---
-title: 'Gatsby Blog - #001: O começo'
-description: Primeiros passos para o Blog da Mi
+title: 'Gatsby Blog - #001: Primeiros passos'
+description: Rascunhando a carinha do blog
 date: '2020-05-03 01:14:11'
 category: log
 background: '#1a5e63'
@@ -22,7 +22,7 @@ Eu tentei, de verdade... mas foi muito difícil, porque eu comecei a perceber qu
 
 ### Fail #2
 
-Ok, preciso estudar mais... Com isso em mente tive a brilhante ideia de rever o curso do zero e fazer passo-a- passo um site do zero e ir customizando para ficar do jeito que eu queria.
+Ok, preciso estudar mais... Com isso em mente tive a brilhante ideia de rever o curso do zero e fazer passo-a-passo um site do zero e ir customizando para ficar do jeito que eu queria.
 
 Não deu. Apesar do curso ser legal pra caramba, não consegui refazê-lo do zero e desanimei.
 
@@ -41,13 +41,3 @@ Aí comecei a mexer, aos pouquinhos: layout base, algumas cores de fundo e categ
 Está muito divertido, mas já passou das 2h da matina e acho melhor começar a fechar e voltar amanhã.   
 
 Nem acredito que estou aqui desde antes do almoço. Estado de flow explica. ;)
-
-#### **Preview de sábado à tarde**
-
-![Preview - V1](assets/img/Home_Mileine_Souto_v1.gif "Preview - V1")
-
-
-
-#### Preview da madrugada de domingo
-
-![Preview - V2](assets/img/Home_Mileine_Souto_v2.gif "Preview - V2")
