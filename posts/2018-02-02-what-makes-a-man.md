@@ -1,42 +1,41 @@
 ---
-date: 2018-02-02 05:54:23
-title: What makes a man?
-description: Spend his whole life in disguise?
+title: Flow - Get in the Zone
+description: 'Achei esse post num blog antigo e trouxe ele pra cá. :)'
+date: 2018-02-02T05:54:23.000Z
 category: misc
-background: "#0792ae"
+background: '#0792ae'
+thumbnail: assets/img/undraw_cup_of_tea_6nqg.svg
 ---
+I first read about *Flow State* in March 2013, on a book called [Mapping Inner Space](https://www.amazon.com.br/Mapping-Inner-Space-Learning-Teaching/dp/1569761388). It was a book about *Visual Thinking* and the concept really made feel intrigued since I had experienced this *flow state* without knowing it has been studied in psychology for decades. A couple of months later, I read about it again on a book called [The Adventures of Johnny Bunko](https://www.amazon.com.br/Adventures-Johnny-Bunko-Career-Guide/dp/1594482918). Since then, I couldn't help noticing moments when I got *in the zone*. 🤗
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
+According to Mihály Csikszentmihaly (father of this concept):
 
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+> In [positive psychology](https://en.wikipedia.org/wiki/Positive_psychology "Positive psychology"), **flow**, also known colloquially as being in **the zone**, is the [mental state](https://en.wikipedia.org/wiki/Mental_state "Mental state") of operation in which a person performing an activity is fully immersed in a feeling of energized focus, full involvement, and enjoyment in the process of the activity. In essence, flow is characterized by complete absorption in what one does, and a resulting loss in one's sense of space and time.
+>
+> Source: [Wikipedia](https://en.wikipedia.org/wiki/Flow_(psychology))
 
-```jsx
-import React from "react"
-import Profile from "../Profile"
-import SocialLinks from "../SocialLinks"
-import MenuLinks from "../MenuLinks"
+You can learn more about it from the Mihaly himself, in his [TED Talk](https://youtu.be/fXIeFJCqsPs).
 
-import * as S from "./styled"
+## My experience with gettin' in the zone
 
-const Sidebar = () => (
-  <S.SidebarWrapper>
-    <Profile />
-    <SocialLinks />
-    <MenuLinks />
-  </S.SidebarWrapper>
-)
+\#01 Practicing Visual Thinking @home
 
-export default Sidebar
-```
+\#02 Building mockups for websites @home
 
-Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec.
+\#03 Coding @work
 
-> Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
+\#04 Blogging @home
 
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.
+\#05 Playing with Vectors @work
 
-### Cras semper consectetur elementum
+\#06 Learning Mandarin from songs @home
 
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+\#07 Cleaning the house @home
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+\#08 Studying @home @work
+
+\#09 Journaling @home
+
+\#10 Writing @work
+
+I think the best part of being aware of what makes me get in the zone is that it helps me to identify what are the little - and simple - things that brings joy and meaning to my days. Suddenly I realize there are many things from this list I take for granted - or keep postponing because it sounds... boring .
