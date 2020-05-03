@@ -10,4 +10,4 @@ thumbnail: assets/img/undraw_youtube_tutorial_2gn3.png
 
 \#TODO: Review
 
-\[Acesse para o curso](<https://www.lynda.com/React-js-tutorials/React-Web-Designers/5043103-2.html>)
+Acesse o curso: (<https://www.lynda.com/React-js-tutorials/React-Web-Designers/5043103-2.html>)
