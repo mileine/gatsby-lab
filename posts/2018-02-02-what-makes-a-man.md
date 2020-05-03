@@ -4,7 +4,7 @@ description: 'Achei esse post num blog antigo e trouxe ele pra cá. :)'
 date: '2018-10-17 03:54:23'
 category: misc
 background: '#0792ae'
-thumbnail: assets/img/undraw_cup_of_tea_6nqg.svg
+thumbnail: assets/img/undraw_cup_of_tea_6nqg.png
 ---
 I first read about *Flow State* in March 2013, on a book called [Mapping Inner Space](https://www.amazon.com.br/Mapping-Inner-Space-Learning-Teaching/dp/1569761388). It was a book about *Visual Thinking* and the concept really made feel intrigued since I had experienced this *flow state* without knowing it has been studied in psychology for decades. A couple of months later, I read about it again on a book called [The Adventures of Johnny Bunko](https://www.amazon.com.br/Adventures-Johnny-Bunko-Career-Guide/dp/1594482918). Since then, I couldn't help noticing moments when I got *in the zone*. 🤗
 
