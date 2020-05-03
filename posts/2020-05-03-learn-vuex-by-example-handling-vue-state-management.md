@@ -4,9 +4,9 @@ description: Very easy to follow and a great start to Vuex
 date: '2020-02-05 11:43:46'
 category: frontend
 background: '#e7508c'
-thumbnail: assets/img/undraw_tutorial_video_vtd1.svg
+thumbnail: assets/img/undraw-tutorial.png
 ---
-![Tutorial - illustration by undraw.co](assets/img/undraw_tutorial_video_vtd1.svg "Tutorial  - illustration by undraw.co")
+![Tutorial - illustration by undraw.co](assets/img/undraw-tutorial.png "Tutorial  - illustration by undraw.co")
 
 [This tutorial](https://coursetro.com/posts/code/144/A-Vuex-Tutorial-by-Example---Learn-Vue-State-Management) helped me understand about how [Vuex](https://vuex.vuejs.org/) works.
 
