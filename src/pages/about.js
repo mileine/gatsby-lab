@@ -6,10 +6,10 @@ import { MainContent } from '../styles/base'
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About"/>
+    <SEO title="Sobre"/>
     <MainContent>
-      <h1> About this blog</h1>
-      <p>This blog was developed during a <a href="https://www.udemy.com/share/101QMeB0oSeVtQ/">Gatsby course</a> I took by  <a href="https://willianjusten.com.br/">Willian Justen.</a> In this course, he teaches - step by step - how to create a blog just like his using Gatsby. I had a lot of fun as I learned a lot about many different topics such as:</p>
+      <h1> Sobre este blog</h1>
+      <p>Este blog foi desenvolvido durante <a href="https://www.udemy.com/share/101QMeB0oSeVtQ/">o curso de Gatsby</a> que fiz pela Udemy com o instrutor <a href="https://willianjusten.com.br/">Willian Justen.</a> Ali ele ensina passa-a-passo como criar um blog igual ao dele utilizando Gatsby. Foi bem divertido e pude aprender também um pouco sobre:</p>
 
       <ul>
         <li>GraphQL</li>
@@ -19,7 +19,7 @@ const AboutPage = () => (
         <li>Web development best practices</li>
       </ul>
 
-      <p>Now my goal is to turn this blog into my personal blog by customizing the layout and adding/removing some features as I keep learning. =) </p>
+      <p>A partir de agora, meu objetivo é transformá-lo num blog pessoal, customizando layout, design, adicionando/removendo componentes, enquanto continuo aprendendo. =) </p>
 
       <blockquote>"learning is hard, and it's humbling" ( <a href="https://css-tricks.com/learning-to-learn/">Learning to learn, by Sarah Drasner</a>)</blockquote>
      
