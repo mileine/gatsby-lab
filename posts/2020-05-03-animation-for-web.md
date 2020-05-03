@@ -3,7 +3,7 @@ title: Animation for web
 description: >-
   A collection of resources about using animation to improve the UX/UI in
   projects for web.
-date: '2020-05-03 03:09:37'
+date: '2019-03-07 03:09:37'
 category: design
 background: '#800080'
 thumbnail: assets/img/undraw_animating_1rgh.png
