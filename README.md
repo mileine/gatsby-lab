@@ -1,6 +1,6 @@
 ## Sobre este projeto 
 
-Este projeto é resultado de um [**curso excelente**](https://www.udemy.com/share/101QMeB0oSeVtQ/) sobre [Gatsby](https://www.gatsbyjs.org/), criado por [Willian Justen](https://willianjusten.com.br/) que ensina passo a passo como criar um blog igual ao dele utilizando Gatsby como gerador de site estático.
+Este projeto é resultado de um [**curso excelente**](https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/) sobre [Gatsby](https://www.gatsbyjs.org/), criado por [Willian Justen](https://willianjusten.com.br/) que ensina passo a passo como criar um blog igual ao dele utilizando Gatsby como gerador de site estático.
 
 Recomendo demais: [Gatsby: Crie um site PWA com React, GraphQL e Netlify CMS](https://www.udemy.com/share/101QMeB0oSeVtQ/).
 
