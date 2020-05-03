@@ -28,6 +28,6 @@ Nem tem o que dizer... essa é a música que me apresentou o Mayday 五月天.
 > 活在你心深处 那顽固的\
 > Believe stubbornly in the dreams that you had
 
-Vídeo com legendas em inglês: <https://www.youtube.com/watch?v=TqfbAXCCVwE&t=8s>
+Vídeo com legendas (em inglês, mas não é necessário conhecer idioma nenhum para entender a mensagem): <https://www.youtube.com/watch?v=TqfbAXCCVwE&t=8s>
 
-Letras e tradução em inglês: <https://maydaylyrics.wordpress.com/history-of-tomorrow/07-2/>
+Letras e tradução (inglês): <https://maydaylyrics.wordpress.com/history-of-tomorrow/07-2/>
