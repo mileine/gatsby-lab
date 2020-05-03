@@ -1,7 +1,7 @@
 ---
 title: 'Mayday 五月天 - Tough #nowplaying'
 description: Uma viagem pelo tempo e para dentro...
-date: '2020-05-03 12:33:42'
+date: '2018-03-26 12:33:42'
 category: misc
 background: '#0792ae'
 thumbnail: assets/img/nowplaying_mayday_tough.png
