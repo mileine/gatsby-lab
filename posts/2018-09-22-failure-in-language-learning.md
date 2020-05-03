@@ -1,7 +1,7 @@
 ---
 title: Failure in Language Learning
 description: Outro texto trazido de um blog antigo...
-date: 2018-02-13T05:54:23.000Z
+date: 2018-09-22 05:54:23
 category: languages
 background: '#00bfb2'
 thumbnail: assets/img/undraw_Fall_is_coming_yl0x.png
