@@ -3,18 +3,10 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 
-export const MenuBarWrapper = styled.aside`
+export const MenuBarWrapper = styled.div`
   align-items: center;
-  background: var(--mediumBackground);
   border-left: 1px solid var(--borders);
   display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-between;
-  padding: 0.8rem 0;
-  position: fixed;
-  right: 0;
-  width: 3.75rem;
 
   ${media.lessThan("large")`
     flex-direction: row;
@@ -28,31 +20,28 @@ export const MenuBarWrapper = styled.aside`
 
 export const MenuBarGroup = styled.div`
   display: flex;
-  flex-direction: column;
-
-  ${media.lessThan("large")`
-    flex-direction: row;
-    height: auto;
-  `}
 `
 
 export const MenuBarLink = styled(AniLink)`
-  display: block;
+  height: 3rem;
+  padding: .7rem;
+  position: relative;
+  width: 3rem;
+  text-align: center;
 `
 
 export const MenuBarItem = styled.span`
-  color: #8899a6;
+  color: var(--background);
   cursor: pointer;
-  display: block;
-  height: 3.75rem;
-  padding: 1.1rem;
+  height: 3rem;
+  padding: .7rem;
   position: relative;
-  width: 3.75rem;
+  width: 3rem;
 
   &.light {
     color: #d4d400;
     &:hover {
-      color: #e2e240;
+      color: var(--texts);
     }
   }
 
@@ -63,6 +52,6 @@ export const MenuBarItem = styled.span`
   }
 
   &:hover {
-    color: var(--highlight);
+    color: var(--white);
   }
 `

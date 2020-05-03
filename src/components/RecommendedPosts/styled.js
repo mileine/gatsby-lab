@@ -8,6 +8,7 @@ export const RecommendedWrapper = styled.section`
   border-top: 1px solid var(--borders);
   background: var(--mediumBackground);
   display: flex;
+  margin-bottom: 3rem;
 `
 
 export const RecommendedLink = styled(AniLink)`
@@ -15,7 +16,7 @@ export const RecommendedLink = styled(AniLink)`
   background: var(--mediumBackground);
   color: var(--highlight);
   display: flex;
-  padding: 3rem;
+  padding: 1.5rem 3rem;
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;

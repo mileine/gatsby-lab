@@ -12,22 +12,24 @@ export const MenuLinksWrapper = styled.nav`
 export const MenuLinksList = styled.ul`
   font-size: 1.2rem;
   font-weight: 300;
+  display: flex;
+  margin-right:1rem;
 `
 
 export const MenuLinksItem = styled.li`
   padding: 0.5rem 0;
-
+  margin-left: .8rem; 
   .active {
-    color: var(--highlight);
+    text-decoration: underline;
   }
 `
 
 export const MenuLinksLink = styled(AniLink)`
-  color: #8899a6;
+  color: var(--background);
   text-decoration: none;
   transition: color 0.5s;
 
   &:hover {
-    color: var(--highlight);
+    text-decoration: underline;
   }
 `

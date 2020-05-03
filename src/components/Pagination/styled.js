@@ -16,7 +16,7 @@ export const PaginationWrapper = styled.section`
       color: var(--highlight);
     }
   }
-
+  margin-bottom: 3rem;
   ${media.lessThan("large")`
     padding: 1rem;
     font-size: .8rem;

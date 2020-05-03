@@ -3,8 +3,9 @@ import { Home } from "styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "styled-icons/boxicons-regular/SearchAlt2"
 import { Grid } from "styled-icons/boxicons-solid/Grid"
 import { ThList as List } from "styled-icons/typicons/ThList"
-import { Moon } from "styled-icons/boxicons-solid/Moon"
-import { Sun } from "styled-icons/boxicons-solid/Sun"
+import { Bulb as BulbOff } from "styled-icons/boxicons-regular/Bulb"
+import { Bulb } from "styled-icons/boxicons-solid/Bulb"
+
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
@@ -43,14 +44,12 @@ const MenuBar = () => {
             <Search></Search>
           </S.MenuBarItem>
         </S.MenuBarLink>
-      </S.MenuBarGroup>
-      <S.MenuBarGroup>
         <S.MenuBarItem title="Mudar o tema" onClick={() => {
           window.__setPreferredTheme(isDarkMode ? 'light': 'dark')
         }}
         className={theme}
         >
-        { isDarkMode ? <Sun /> : <Moon />}
+        { isDarkMode ? <BulbOff /> : <Bulb />}
         </S.MenuBarItem>
         <S.MenuBarItem title="Mudar visualização" onClick={() => {
           window.__setPreferredDisplay(isListMode ? 'grid': 'list')
