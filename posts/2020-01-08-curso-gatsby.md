@@ -1,7 +1,8 @@
 ---
 title: '[Curso] Gatsby'
-description: 'Review do curso: Gatsby: Crie um site PWA com React, GraphQL e Netlify CMS Get
-  certificate'
+description: >-
+  Review do curso: Gatsby: Crie um site PWA com React, GraphQL e Netlify CMS Get
+  certificate
 date: '2020-01-08 03:54:23'
 category: frontend
 background: '#e7508c'
