@@ -14,7 +14,6 @@ export const ListWrapper = styled.section`
 
   ${media.lessThan("large")`
     padding: 0;
-    margin-top: 3.75rem;
     display: flex;
     flex-direction: column;
   `}
