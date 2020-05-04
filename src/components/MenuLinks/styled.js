@@ -28,8 +28,12 @@ export const MenuLinksLink = styled(AniLink)`
   color: var(--background);
   text-decoration: none;
   transition: color 0.5s;
-
   &:hover {
-    text-decoration: underline;
+    color: var(--white);
+  }
+  &.light {
+    &:hover {
+      color: var(--text);
+    }
   }
 `
