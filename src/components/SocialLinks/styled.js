@@ -4,10 +4,6 @@ import media from "styled-media-query"
 export const SocialLinksWrapper = styled.nav`
   margin: 2rem auto;
   width: 100%;
-
-  ${media.lessThan("large")`
-    display: none;
-  `}
 `
 
 export const SocialLinksList = styled.ul`
@@ -18,7 +14,7 @@ export const SocialLinksList = styled.ul`
 `
 
 export const SocialLinksItem = styled.li`
-  margin-right: .8rem;
+  margin-right: 1.2rem;
 `
 
 export const SocialLinksLink = styled.a`
