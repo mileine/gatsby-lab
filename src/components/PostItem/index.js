@@ -10,7 +10,6 @@ const PostItem = ({
     background,
     category,
     date,
-    timeToRead,
     title,
     description,
   }) => (
@@ -18,7 +17,7 @@ const PostItem = ({
     <S.PostItemWrapper>
       <S.PostItemTag background={background}>{category}</S.PostItemTag>
       <S.PostItemInfo>
-        <S.PostItemDate>{date} • {timeToRead}</S.PostItemDate>
+        <S.PostItemDate>{date}</S.PostItemDate>
         <S.PostItemTitle>{title}</S.PostItemTitle>
         <S.PostItemDescription>{description}</S.PostItemDescription>
       </S.PostItemInfo>

@@ -20,14 +20,13 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   border-bottom: 1px solid var(--borders);
   display: flex;
+  align-items: flex-start;
   padding: 2rem 3rem;
   width: 100%;
 
   body#grid & {
     border: none;
     padding: 2rem 1rem;
-    flex-direction: column;
-    justify-content: center;
   }
 
   ${media.lessThan("large")`
@@ -51,7 +50,7 @@ export const PostItemTag = styled.div`
   text-transform: uppercase;
 
   body#grid & {
-    margin-bottom: 1.5rem;
+    margin-right: 1rem;
   }
 
   ${media.lessThan("large")`
@@ -67,11 +66,9 @@ export const PostItemTag = styled.div`
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 1.5rem;
 
   body#grid & {
     line-height: 1.1;
-    margin: 0.8rem 0;
   }
 
   ${media.lessThan("large")`
@@ -81,10 +78,11 @@ export const PostItemInfo = styled.div`
 
 export const PostItemDate = styled.time`
   font-size: 0.9rem;
+  margin-bottom: 0.5rem;
 `
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
 `
