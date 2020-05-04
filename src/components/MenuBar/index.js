@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Home } from "styled-icons/boxicons-solid/Home"
 import { SearchAlt2 as Search } from "styled-icons/boxicons-regular/SearchAlt2"
-import { Grid } from "styled-icons/boxicons-solid/Grid"
-import { ThList as List } from "styled-icons/typicons/ThList"
 import { Bulb as BulbOff } from "styled-icons/boxicons-regular/Bulb"
 import { Bulb } from "styled-icons/boxicons-solid/Bulb"
 
@@ -15,7 +13,6 @@ const MenuBar = () => {
   const [display, setDisplay] = useState(null)
 
   const isDarkMode = theme === "dark"
-  const isListMode = display === "list"
 
   useEffect (() => {
     setTheme(window.__theme)
@@ -50,14 +47,7 @@ const MenuBar = () => {
         className={theme}
         >
         { isDarkMode ? <BulbOff /> : <Bulb />}
-        </S.MenuBarItem>
-        <S.MenuBarItem title="Mudar visualização" onClick={() => {
-          window.__setPreferredDisplay(isListMode ? 'grid': 'list')
-          }}
-          className="display"
-        >
-          {isListMode ? <Grid /> : <List />}
-        </S.MenuBarItem>
+        </S.MenuBarItem> 
       </S.MenuBarGroup>
     </S.MenuBarWrapper>
   )}
