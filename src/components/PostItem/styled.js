@@ -18,6 +18,7 @@ export const PostItemLink = styled(AniLink)`
 
 export const PostItemWrapper = styled.section`
   align-items: center;
+  background: var(--background);
   border-bottom: 1px solid var(--borders);
   display: flex;
   flex-direction: column;
