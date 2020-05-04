@@ -10,16 +10,13 @@ import * as S from "./styled"
 
 const MenuBar = () => {
   const [theme, setTheme] = useState(null)
-  const [display, setDisplay] = useState(null)
 
   const isDarkMode = theme === "dark"
 
   useEffect (() => {
     setTheme(window.__theme)
-    setTheme(window.__display)
 
     window.__onThemeChange = () => setTheme(window.__theme)
-    window.__onDisplayChange = () => setDisplay(window.__display)
   }, [])
 
   return (
