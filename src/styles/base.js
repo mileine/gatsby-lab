@@ -84,7 +84,7 @@ export const MainContent = styled.section`
     line-height: 1.4;
   }
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
   }
   h2 {
     font-size: 2.1rem;
