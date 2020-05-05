@@ -134,6 +134,14 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+  td,th {
+    padding: 1rem;
+    color: var(--postColor);
+    border: 1px solid var(--highlight);
+  }
+  th {
+    font-weight: bold;
+  }
   ${media.lessThan("large")`
     padding: .8rem; 
     font-size: 1rem;
