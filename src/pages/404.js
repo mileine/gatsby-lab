@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { useStaticQuery, graphql } from 'gatsby'
+import { MainContent } from '../styles/base'
 import Img from 'gatsby-image' 
 
 const NotFoundPage = () => {
@@ -11,7 +12,7 @@ const NotFoundPage = () => {
       query {
         notFoundImg: file(relativePath: { eq: "undraw_not_found_60pq.png"}) {
           childImageSharp {
-            fluid(maxWidth: 400) {
+            fluid {
               ...GatsbyImageSharpFluid_tracedSVG
             }
           }
@@ -20,12 +21,14 @@ const NotFoundPage = () => {
     `
   )
   return <Layout>
+    <MainContent>
     <SEO title="404: Not found" />
-    <Img
-        fluid={notFoundImg.childImageSharp.fluid}
-        alt="Oops... nada aqui!"
-        />
-    <p>Oops! Nada por aqui...</p>
+      <Img
+          fluid={notFoundImg.childImageSharp.fluid}
+          alt="Oops... nada aqui!"
+          />
+      <p>Oops! Nada por aqui...</p>
+    </MainContent>
   </Layout>
 }
 
