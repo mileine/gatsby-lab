@@ -1,5 +1,3 @@
-import { FlashOff } from "styled-icons/material"
-
 const getThemeColor = () => {
   const theme = typeof window !== 'undefined' && window.__theme
 
