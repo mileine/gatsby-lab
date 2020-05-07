@@ -13,8 +13,7 @@ export const SearchWrapper = styled.section`
     height: auto;
     width: 100%;
   }
-  .ais-SearchBox,
-  .ais-Stats {
+  .ais-SearchBox{
     padding: 0.5rem 3rem;
     ${media.lessThan("large")`
       padding: 0.5rem 1rem; 
@@ -25,6 +24,7 @@ export const SearchWrapper = styled.section`
   }
   .ais-Stats {
     color: var(--texts);
+    margin-bottom: 0.5rem
   }
   body#grid & {
     .ais-Hits-list {
@@ -63,7 +63,11 @@ export const SearchWrapper = styled.section`
 export const SearchStatsWrapper = styled.div`
   display: flex;
   justify-content: space-between;
-  padding-right: 48px;
+  padding-right: 48px;  
+  padding: 0.5rem 3rem;
+  ${media.lessThan("large")`
+    padding: 0.5rem 1rem; 
+  `}
   ${media.lessThan("medium")`
       flex-direction: column; 
     `}
