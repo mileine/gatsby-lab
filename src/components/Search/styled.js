@@ -26,7 +26,6 @@ export const SearchWrapper = styled.section`
   .ais-Stats {
     color: var(--texts);
   }
-
   body#grid & {
     .ais-Hits-list {
       background-color: var(--borders);
@@ -60,4 +59,12 @@ export const SearchWrapper = styled.section`
   .ais-SearchBox-reset {
     display: none;
   }
+`
+export const SearchStatsWrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding-right: 48px;
+  ${media.lessThan("medium")`
+      flex-direction: column; 
+    `}
 `
