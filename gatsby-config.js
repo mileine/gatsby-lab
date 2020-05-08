@@ -4,7 +4,7 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `Mi`,
+    title: `Mileine`,
     position: `Front-end/UI dev`,
     description: `Learning how to learn.`,
     author: `@myblog`,
@@ -62,10 +62,6 @@ module.exports = {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Yrsa`,
-            varians: [`400`],
-          },
           {
             family: `Quattrocento Sans`,
             variants: [`400`]

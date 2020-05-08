@@ -37,7 +37,7 @@ export const ProfileAuthor =  styled.h1`
 `
 
 export const ProfilePosition = styled.small`
-  display: flex;
+  display: none;
   font-size: .8rem;
   font-weight: 300;
   margin-right: 2rem;
