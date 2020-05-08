@@ -3,7 +3,7 @@ import algoliasearch from "algoliasearch/lite"
 import { InstantSearch, SearchBox, Hits, Stats } from "react-instantsearch-dom"
 import Hit from "./Hit"
 import * as S from "./styled"
-import SearchImgLightBg from "../../images/search-by-algolia-light-background.png"
+import SearchImgLightBg from "../../images/search-by-algolia-light-background.svg"
 
 const algolia = {
   appId: process.env.GATSBY_ALGOLIA_APP_ID,
