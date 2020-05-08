@@ -4,11 +4,11 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const ProfileWrapper = styled.section`
-  color: var(--background);
+  color: var(--white);
   display: flex;
 `
 export const ProfileLink = styled(AniLink)`
-  color: var(--background);
+  color: var(--white);
   text-decoration: none;
   transition: color 0.5s;
   display: flex;

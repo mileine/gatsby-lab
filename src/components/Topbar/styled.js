@@ -5,9 +5,9 @@ export const TopbarWrapper = styled.div`
   top: 0;
   display: flex;
   justify-content: space-between;
-  background: var(--highlight);
+  background: var(--topbarBackground);
   width: 100vw;
-  color: var(--background);
+  color: var(--white);
   padding: .5rem;
 ` 
 export const TopbarLinks = styled.div`

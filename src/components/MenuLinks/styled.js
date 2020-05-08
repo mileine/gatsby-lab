@@ -25,7 +25,7 @@ export const MenuLinksItem = styled.li`
 `
 
 export const MenuLinksLink = styled(AniLink)`
-  color: var(--background);
+  color: var(--white);
   text-decoration: none;
   transition: color 0.5s;
   &:hover {

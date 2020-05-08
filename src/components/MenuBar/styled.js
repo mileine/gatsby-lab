@@ -31,7 +31,7 @@ export const MenuBarLink = styled(AniLink)`
 `
 
 export const MenuBarItem = styled.span`
-  color: var(--background);
+  color: var(--white);
   cursor: pointer;
   height: 3rem;
   padding: .7rem;
@@ -41,7 +41,7 @@ export const MenuBarItem = styled.span`
   &.light {
     color: #d4d400;
     &:hover {
-      color: var(--texts);
+      color: var(--white);
     }
   }
 
