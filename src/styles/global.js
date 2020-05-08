@@ -63,7 +63,7 @@ const GlobalStyles = createGlobalStyle`
     --background: #16202c;
     --white: #d7dce1;
     --black: #222;
-    --topbarBackground: #042525;
+    --topbarBackground: #192734;
   }
 
   body.light {
