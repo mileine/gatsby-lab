@@ -36,7 +36,7 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
     background: #16202c;
     font-size: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Quattrocento Sans', sans-serif;
   }
   ol, ul {
   list-style: none;

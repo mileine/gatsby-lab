@@ -58,6 +58,21 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Yrsa`,
+            varians: [`400`],
+          },
+          {
+            family: `Quattrocento Sans`,
+            variants: [`400`]
+          },
+        ],
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
