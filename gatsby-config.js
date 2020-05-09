@@ -4,7 +4,7 @@ const queries = require("./src/utils/algolia_queries")
 
 module.exports = {
   siteMetadata: {
-    title: `Mileine`,
+    title: `Mileine Souto`,
     position: `Front-end/UI dev`,
     description: `Learning how to learn.`,
     author: `@myblog`,
@@ -108,7 +108,7 @@ module.exports = {
         background_color: `#16202c`,
         theme_color: `#16202c`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sitemap`,
