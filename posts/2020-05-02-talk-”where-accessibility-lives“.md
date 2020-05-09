@@ -6,7 +6,8 @@ category: a11y
 background: '#812d8a'
 thumbnail: assets/img/Screen Shot 2020-05-02 at 12.57.14.png
 ---
-![Talk - Where Accessibility lives](assets/img/talk_acessiblity_by_derek.png "Talk - Where Accessibility lives")
+
+`youtube: https://www.youtube.com/watch?v=ecE-oRh6-b8`
 
 In this talk, Derek Featherstone presents this case about a brilliant team that had to do some work on accessibility on a project they thought "it was done".
 
@@ -16,5 +17,3 @@ Highlights:
 * A list of common issues and suggestions on how to set priorities.
 * **Continuous improvement** mindset: for knowledge and implementation.
 * Start and learn quickly.
-
-Access talk: <https://www.youtube.com/watch?v=ecE-oRh6-b8>

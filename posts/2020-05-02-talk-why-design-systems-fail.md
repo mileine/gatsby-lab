@@ -6,7 +6,8 @@ category: design
 background: '#800080'
 thumbnail: assets/img/talk_why-design-systems-fail.png
 ---
-![Talk - Why Design Systems Fail](assets/img/talk_why-design-systems-fail.png "Talk - Why Design Systems Fail")
+
+`youtube: https://www.youtube.com/watch?v=vr2-g72HRT0`
 
 Highlights:
 
@@ -16,5 +17,3 @@ Highlights:
   (Eg.: Prevents rework, bugs. Improves accessibility.)
 * If you are the only person fighting for it, maybe you should think if it's really suitable for your project.
 * You might not need a design system.
-
-Link: [https://www.youtube.com/watch?v=vr2-g72HRT0](https://www.youtube.com/watch?v=vr2-g72HRT0)
