@@ -5,11 +5,12 @@ import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import { MainContent } from '../styles/base'
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
-  const post = data.markdownRemark
+  const post = data.mdx
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
 
@@ -24,7 +25,7 @@ const BlogPost = ({ data, pageContext }) => {
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
       <MainContent>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        <MDXRenderer>{post.body}</MDXRenderer>
       </MainContent>
       <RecommendedPosts next={next} previous={previous} />
     </Layout>
@@ -33,7 +34,7 @@ const BlogPost = ({ data, pageContext }) => {
 
 export const query = graphql`
   query Post($slug: String!) {
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    mdx(fields: { slug: { eq: $slug } }) {
       fields {
         slug
       }
@@ -42,7 +43,7 @@ export const query = graphql`
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
       }
-      html
+      body
       timeToRead
     }
   }

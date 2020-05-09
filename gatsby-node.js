@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
   // Ensures we are processing only markdown files
-  if (node.internal.type === "MarkdownRemark") {
+  if (node.internal.type === "Mdx") {
     // Use `createFilePath`to turn markdown files in our `data/faqs`directory into `/faqs/slug
     const slug = createFilePath({
       node,
@@ -25,7 +25,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMarkdownRemark (sort: { fields: frontmatter___date, order: DESC }){
+      allMdx (sort: { fields: frontmatter___date, order: DESC }){
         edges {
           node {
             fields{
@@ -61,7 +61,7 @@ exports.createPages = ({ graphql, actions }) => {
       }
     }
   `).then(result => {
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.allMdx.edges
 
     posts.forEach(({ node, next, previous }) => {
       createPage({

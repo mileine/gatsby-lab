@@ -8,7 +8,7 @@ import Pagination from "../components/Pagination"
 import * as S from "../components/ListWrapper/styled"
 
 const BlogList = props => {
-  const postList = props.data.allMarkdownRemark.edges
+  const postList = props.data.allMdx.edges
   const { currentPage, numPages } = props.pageContext
   const isFirst = currentPage === 1
   const isLast =  currentPage === numPages
@@ -46,7 +46,7 @@ const BlogList = props => {
 
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {
-    allMarkdownRemark (
+    allMdx (
       sort: { fields: frontmatter___date, order: DESC} 
       limit: $limit
       skip: $skip
