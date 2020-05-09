@@ -56,8 +56,7 @@ export const MainContent = styled.section`
     margin: 1.875rem auto;
   }
   iframe {
-    padding: 0 1.6rem 1.6rem;
-    width: 100%;
+    padding: 0;
   }
   blockquote {
     color: var(--postColor);
