@@ -14,7 +14,9 @@ According to Mihály Csikszentmihaly (father of this concept):
 >
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/Flow_(psychology))
 
-You can learn more about it from the Mihaly himself, in his [TED Talk](https://youtu.be/fXIeFJCqsPs).
+You can learn more about it from the Mihaly himself, in his [TED Talk](https://youtu.be/fXIeFJCqsPs):
+
+`youtube: https://youtu.be/fXIeFJCqsPs`
 
 ## My experience with gettin' in the zone
 
@@ -38,4 +40,4 @@ You can learn more about it from the Mihaly himself, in his [TED Talk](https://y
 
 \#10 Writing @work
 
-I think the best part of being aware of what makes me get in the zone is that it helps me to identify what are the little - and simple - things that brings joy and meaning to my days. Suddenly I realize there are many things from this list I take for granted - or keep postponing because it sounds... boring .
+I think the best part of being aware of what makes me get in the zone is that it helps me to identify what are the little - and simple - things that brings joy and meaning to my days.
