@@ -5,14 +5,14 @@ export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
-  padding: 5rem 5rem 0;
+  padding: 5rem 2rem 0;
   ${media.lessThan("large")`
-    padding: 5rem .8rem; 
+    padding: 2rem .8rem; 
   `}
 `
 
 export const PostTitle = styled.h1`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   padding: 0 1.4rem;
   margin: 1rem auto;
@@ -31,7 +31,4 @@ export const PostDate = styled.p`
   font-size: 1.1rem;
   font-weight: 100;
   padding: 0 1.4rem;
-  ${media.lessThan("large")`
-    padding: 1rem; 
-  `}
 `

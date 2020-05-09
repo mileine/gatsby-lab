@@ -60,6 +60,14 @@ export const PostItemTag = styled.div`
 
 `
 
+export const PostItemHeader = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: .8rem;
+`
+
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;

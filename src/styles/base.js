@@ -4,7 +4,7 @@ import media from 'styled-media-query'
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
-  padding: 2rem 5rem;
+  padding: 2rem 2rem 6rem 2rem;
   p,
   h1,
   h2,
@@ -57,6 +57,7 @@ export const MainContent = styled.section`
   }
   iframe {
     padding: 0;
+    max-width: 100%;
   }
   blockquote {
     color: var(--postColor);
@@ -84,19 +85,19 @@ export const MainContent = styled.section`
     line-height: 1.4;
   }
   h1 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
   h2 {
-    font-size: 2.1rem;
-  }
-  h3 {
     font-size: 1.6rem;
   }
-  h4 {
+  h3 {
     font-size: 1.4rem;
   }
-  h5 {
+  h4 {
     font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1.1em;
   }
   strong {
     font-weight: 700;
@@ -134,6 +135,9 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+  table {
+    margin: 2rem;
+  }
   td,th {
     padding: 1rem;
     color: var(--postColor);
@@ -143,7 +147,7 @@ export const MainContent = styled.section`
     font-weight: bold;
   }
   ${media.lessThan("large")`
-    padding: .8rem; 
+    padding: .8rem .8rem  6rem .8rem; 
     font-size: 1rem;
   `}
 `

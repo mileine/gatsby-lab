@@ -8,7 +8,10 @@ export const RecommendedWrapper = styled.section`
   border-top: 1px solid var(--borders);
   background: var(--mediumBackground);
   display: flex;
-  margin-bottom: 3rem;
+  position: fixed;
+  bottom: 3rem;
+  width: 100%;
+  z-index: 5;
 `
 
 export const RecommendedLink = styled(AniLink)`

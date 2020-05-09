@@ -19,9 +19,6 @@ export const SearchWrapper = styled.section`
       padding: 0.5rem 1rem; 
     `}
   }
-  .ais-SearchBox {
-    padding-top: 6rem;
-  }
   .ais-Stats {
     color: var(--texts);
     margin-bottom: 0.5rem
@@ -36,6 +33,7 @@ export const SearchWrapper = styled.section`
       grid-gap: 1px;
       grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
       margin-top: 2rem;
+      margin-bottom: 6rem;
     }
     .ais-Hits-item {
       background-color: var(--background);

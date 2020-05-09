@@ -8,7 +8,8 @@ export const LayoutMain = styled.main`
   background: var(--background);
   padding: 0;
   width: 100%;
-  margin-top: 3.5rem;
+  min-height: 100vh;
+  margin-top: 4rem;
 
   body#grid & {
     grid-template-areas:
