@@ -70,6 +70,7 @@ module.exports = {
               linkImagesToOriginal: false
             },
           },
+          `gatsby-remark-responsive-iframe`,
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
         ],
