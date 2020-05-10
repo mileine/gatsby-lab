@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import SocialLinks from "../SocialLinks"
 import * as S from "./styled"
 
