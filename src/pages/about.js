@@ -14,13 +14,18 @@ const AboutPage = () => (<Layout>
 
         <p>Depois de uma longa pausa, retomei a ideia do blog. Desta vez, voltando para trabalhar a partir do projeto final do curso: customizando layout, design, adicionando/removendo componentes, enquanto continuo aprendendo.</p>
 
-        <p>Percebi que essa abordagem foi certa quando me vi passando o fim de semana todo trabalhando nas primeiras customizações sem ver o tempo passar. <a href="https://pt.wikipedia.org/wiki/Fluxo_(psicologia)">Estado de Flow</a> total. =)</p>
+        <p>Percebi que essa abordagem foi certa quando me vi passando o fim de semana todo trabalhando nas primeiras customizações sem ver o tempo passar. <a href="https://pt.wikipedia.org/wiki/Fluxo_(psicologia)">Estado de Flow</a> total.</p>
 
         <blockquote><p>"learning is hard, and it's humbling" ( <a href="https://css-tricks.com/learning-to-learn/">Learning to learn, by Sarah Drasner</a>)</p></blockquote>
 
+
+        <p>Sobre conteúdo, este blog é um caderno digital pessoal. Um lugar para organizar referências como links, palestras, cursos, artigos e anotações sobre assuntos diversos. Com o passar <strike>das décadas</strike> dos anos, acabei guardando esse tipo de informação em diferentes plataformas: evernote, google keep, e-mails, whatsapp, playlists do Youtube e blogs antigos. 😬😬😬</p>
+        
+        <p>Por isso, o Gatsby caiu como uma luva para uma necessidade antiga, pois ele realmente me permite criar um caderno digital, com a minha cara, de acordo com as minhas necessidades. Estou organizando e refinando o conteúdo aos poucos. Por enquanto, apenas populando o blog com posts em versão "rascunho" para validar layout e testar plugins. A prioridade neste momento é aprender sobre Gatsby e tecnologias relacionadas.👩🏻‍🏫</p>
+        
         <hr/>
 
-        <p>Obs.: Sobre conteúdo, meu objetivo é fazer deste blog meu caderno digital. Um lugar para centralizar referências de links, palestras, cursos, artigos e anotações sobre os assuntos que mais me interessam: tecnologias front-end, desenvolvimento de software, design, aprendizado de idiomas, bem-estar e música. Tenho muita informação espalhada em evernote, e-mails, whatsapp, playlists do Youtube e blogs antigos. Além disso, tenho sentido falta de ter uma plataforma para documentar aprendizados e experiências, especialmente na área de front-end. O Gatsby caiu como uma luva para uma necessidade antiga. Por permitir "salvar" o conteúdo offline (PWA), ele realmente funciona como um caderno digital. Mas o conteúdo eu vou organizando e refinando aos poucos. Por enquanto, estou apenas populando o blog com posts em versão "rascunho" para validar layout e testar plugins. A prioridade neste momento é aprender sobre Gatsby e tecnologias relacionadas. 加由！加由！</p>
+        <p>Última atualização em 10/05/2020.</p>
 
     </MainContent>
   </Layout>
