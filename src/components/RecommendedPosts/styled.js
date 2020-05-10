@@ -8,6 +8,7 @@ export const RecommendedWrapper = styled.section`
   border-top: 1px solid var(--borders);
   background: var(--mediumBackground);
   display: flex;
+  justify-content: flex-end;
   position: fixed;
   bottom: 3rem;
   width: 100%;
