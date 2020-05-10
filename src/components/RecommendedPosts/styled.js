@@ -8,7 +8,6 @@ export const RecommendedWrapper = styled.section`
   border-top: 1px solid var(--borders);
   background: var(--mediumBackground);
   display: flex;
-  justify-content: flex-end;
   position: fixed;
   bottom: 3rem;
   width: 100%;
@@ -29,9 +28,16 @@ export const RecommendedLink = styled(AniLink)`
   }
   &.previous {
     border-right: 1px solid var(--borders);
+    align-self: flex-start;
+  }
+  &.previous:only-child {
+    border-right: none;
   }
   &.next {
     justify-content: flex-end;
+  }
+  &.next:only-child {
+    margin-left: 50%;
   }
   &.previous:before {
     content: "\\2190";
