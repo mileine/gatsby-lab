@@ -8,7 +8,7 @@ export const TopbarWrapper = styled.div`
   background: var(--topbarBackground);
   width: 100vw;
   color: var(--white);
-  padding: .5rem;
+  padding: .5rem 1rem;
 ` 
 export const TopbarLinks = styled.div`
   display: flex;
