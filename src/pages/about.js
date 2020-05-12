@@ -19,9 +19,9 @@ const AboutPage = () => (<Layout>
         <blockquote><p>"learning is hard, and it's humbling" ( <a href="https://css-tricks.com/learning-to-learn/">Learning to learn, by Sarah Drasner</a>)</p></blockquote>
 
 
-        <p>Sobre conteúdo, este blog é um caderno digital pessoal. Um lugar para organizar referências como links, palestras, cursos, artigos e anotações sobre assuntos diversos. Com o passar <strike>das décadas</strike> dos anos, acabei guardando esse tipo de informação em diferentes plataformas: evernote, google keep, e-mails, whatsapp, playlists do Youtube e blogs antigos. 😬😬😬</p>
+        <p>Sobre conteúdo, este blog é um caderno digital pessoal. Um lugar para organizar referências como links, palestras, cursos, artigos e anotações sobre assuntos diversos. Com o passar <strike>das décadas</strike> dos anos, acabei guardando esse tipo de informação em diferentes plataformas: evernote, google keep, e-mails, whatsapp, playlists do Youtube e blogs antigos.</p>
         
-        <p>Por isso, o Gatsby caiu como uma luva para uma necessidade antiga, pois ele realmente me permite criar um caderno digital, com a minha cara, de acordo com as minhas necessidades. Estou organizando e refinando o conteúdo aos poucos. Por enquanto, apenas populando o blog com posts em versão "rascunho" para validar layout e testar plugins. A prioridade neste momento é aprender sobre Gatsby e tecnologias relacionadas.👩🏻‍🏫</p>
+        <p>Por isso, o Gatsby caiu como uma luva para uma necessidade antiga, pois ele realmente me permite criar um caderno digital, com a minha cara, de acordo com as minhas necessidades. Estou organizando e refinando o conteúdo aos poucos. Por enquanto, apenas populando o blog com posts em versão "rascunho" para validar layout e testar plugins. A prioridade neste momento é aprender sobre Gatsby e tecnologias relacionadas.</p>
         
         <hr/>
 
