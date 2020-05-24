@@ -62,9 +62,10 @@ export const MainContent = styled.section`
   blockquote {
     color: var(--postColor);
     border-left: 0.3rem solid var(--highlight);
+    padding-left: 1rem;
     margin: 3.125rem auto;
     font-size: 1rem;
-    font-style: italic;
+    line-height: 1.8;
   }
   hr {
     border: 1px solid var(--borders);
