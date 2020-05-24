@@ -16,14 +16,14 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--postColor);
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 300;
-    line-height: 1.7;
+    line-height: 1.4;
     letter-spacing: 0.069rem;
     padding: 0 1.4rem;
   }
   p {
-    margin: 0 auto 1.6rem;
+    margin: 0 auto .5rem;
   }
   h1,
   h2,
@@ -62,9 +62,9 @@ export const MainContent = styled.section`
   blockquote {
     color: var(--postColor);
     border-left: 0.3rem solid var(--highlight);
-    padding: 0 1.875rem;
     margin: 3.125rem auto;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-style: italic;
   }
   hr {
     border: 1px solid var(--borders);

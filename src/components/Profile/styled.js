@@ -47,7 +47,7 @@ export const ProfilePosition = styled.small`
 `
 
 export const ProfileTitle = styled.h1`
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-bottom: 2px;
   margin-right: .8rem;
   ${media.lessThan("large")`
@@ -63,9 +63,7 @@ export const ProfileDescription = styled.span`
     font-size: .8rem;
   `}
   ${media.lessThan("medium")`
-    /* display: none; */
-    max-width: 130px;
-    font-size: .5rem;
+    max-width: 145px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
