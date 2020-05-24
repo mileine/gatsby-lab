@@ -3,14 +3,28 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PostItemLink = styled(AniLink)`
+  box-sizing: border-box;
+  width: 25vw;
   color: #8899a6;
   display: flex;
   text-decoration: none;
-
-  body#grid & {
-    background-color: var(--background);
+  border-right: 1px dotted var(--borders);
+  border-bottom: 1px dotted var(--borders);
+  &:nth-child(4n){
+    border-right: none;
   }
-
+  ${media.lessThan("large")`
+    width: 50vw;
+    align-items: flex-start;
+    &:nth-child(2n) {
+      border-right: none;
+    }
+  `}
+  ${media.lessThan("medium")`
+    width: 100vw;
+    align-items: flex-start;
+    border-right: none !important;
+  `}
   &:hover {
     color: var(--highlight);
   }
@@ -19,24 +33,27 @@ export const PostItemLink = styled(AniLink)`
 export const PostItemWrapper = styled.section`
   align-items: center;
   background: var(--background);
-  border-bottom: 1px solid var(--borders);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: strech;
   padding: 2rem 3rem;
-  width: 100%;
+  width: 25vw;
+  height: 100%;
   transition: background .8s;
-  body#grid & {
-    border: none;
-    padding: 2rem 1rem;
-  }
-
+  
   &:hover {
     background: var(--postItemBackground);
   }
 
   ${media.lessThan("large")`
-    
+    width: 50vw;
+    align-items: flex-start;
+    padding: 1.5rem 1rem; 
+  }
+
+  `}
+  ${media.lessThan("medium")`
+    width: 100vw;
     align-items: flex-start;
     padding: 1.5rem 1rem; 
   `}
