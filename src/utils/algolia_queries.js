@@ -13,7 +13,7 @@ const postQuery = `{
           background
           category
           date_timestamp: date
-          date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+          date(locale: "pt-br", formatString: "DD/MM/YYYY")
           description
         }
         excerpt(pruneLength: 5000)

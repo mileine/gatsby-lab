@@ -31,7 +31,7 @@ const Search= () => (
         }}
         />
       <img src={SearchImgLightBg} alt="powered by Algolia Search" height="24" width="168"/>
-      </S.SearchStatsWrapper>
+      </S.SearchStatsWrapper> 
       <Hits hitComponent={Hit} />
     </InstantSearch>
   </S.SearchWrapper>
