@@ -31,6 +31,10 @@ export const PostItemWrapper = styled.section`
     padding: 2rem 1rem;
   }
 
+  &:hover {
+    background: var(--postItemBackground);
+  }
+
   ${media.lessThan("large")`
     
     align-items: flex-start;
