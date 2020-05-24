@@ -79,7 +79,8 @@ const GlobalStyles = createGlobalStyle`
     --background: #fff;
     --white: #f5f5f5;
     --black: #222;
-    --topbarBackground: #129FA1;
+    --green: #129FA1;
+    --topbarBackground: #491a4f;
     --postItemBackground: #f8f9fa;
     --lightHover: #cfdae7;
     --menuItemHover: #cfdae7;
