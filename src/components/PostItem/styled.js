@@ -36,7 +36,7 @@ export const PostItemWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 2rem 3rem;
+  padding: 2rem;
   width: 25vw;
   height: 100%;
   transition: background .8s;
