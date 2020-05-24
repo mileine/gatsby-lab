@@ -1,28 +1,65 @@
 import styled from 'styled-components'
 import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PaginationWrapper = styled.section`
-  align-items: center;
-  border-top: 1px solid var(--borders);
   border-bottom: 1px solid var(--borders);
+  border-top: 1px solid var(--borders);
   background: var(--mediumBackground);
-  color: #8899a6;
   display: flex;
-  padding: 1.5rem 3rem;
-  justify-content: space-between;
-  width: 100%;
   position: fixed;
   bottom: 3rem;
-  a {
-    color: #8899a6;
-    text-decoration: none;
-    transition: color 0.5s;
-    &:hover {
-      color: var(--highlight);
-    }
+  width: 100%;
+  z-index: 5;
+`
+
+export const PaginationStatus = styled.p`
+  color: var(--highlight);
+  padding: 1.5rem 3rem;
+  min-width: 50%;
+  &.last {
+    text-align: right;
   }
   ${media.lessThan("large")`
-    padding: 1rem;
+    padding: 1rem; 
+    font-size: .8rem;
+  `}
+`
+
+export const PaginationLink = styled(AniLink)`
+  align-items: center;
+  background: var(--mediumBackground);
+  color: var(--highlight);
+  display: flex;
+  padding: 1.5rem 3rem;
+  text-decoration: none;
+  transition: background 0.5s;
+  width: 50%;
+  &:hover {
+    background: var(--borders);
+  }
+  &.previous {
+    align-self: flex-start;
+  }
+  &.previous:only-child {
+    border-right: none;
+  }
+  &.next {
+    justify-content: flex-end;
+  }
+  &.next:only-child {
+    margin-left: 50%;
+  }
+  &.previous:before {
+    content: "\\2190";
+    margin-right: 0.5rem;
+  }
+  &.next:after {
+    content: "\\2192";
+    margin-left: 0.5rem;
+  }
+  ${media.lessThan("large")`
+    padding: 1rem; 
     font-size: .8rem;
   `}
 `

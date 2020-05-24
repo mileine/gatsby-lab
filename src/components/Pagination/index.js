@@ -8,16 +8,19 @@ import * as S from "./styled"
 const Pagination = ({ isFirst, isLast, currentPage, numPages, prevPage, nextPage }) => (
   <S.PaginationWrapper>
     {!isFirst && 
-      <AniLink to={prevPage} cover direction="right" bg={getThemeColor()} duration={0.6}>← página anterior</AniLink>
+      <S.PaginationLink to={prevPage} cover direction="right" bg={getThemeColor()} duration={0.6}className="previous">página anterior</S.PaginationLink>
     }
-    <p>
-      {currentPage} de {numPages}
-    </p>
+    {isFirst && 
+      <S.PaginationStatus className="first">{currentPage} de {numPages}</S.PaginationStatus>
+    }
     {!isLast && 
-      <AniLink to={nextPage} cover
+      <S.PaginationLink to={nextPage} cover
       direction="left"
       bg={getThemeColor()}
-      duration={0.6}>proxima página →</AniLink>
+      duration={0.6} className="next">proxima página </S.PaginationLink>
+    }
+    {isLast && 
+      <S.PaginationStatus className="last">{currentPage} de {numPages}</S.PaginationStatus>
     }
   </S.PaginationWrapper>
 )
