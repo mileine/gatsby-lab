@@ -108,13 +108,13 @@ export const PostItemDate = styled.time`
 `
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 700;
   margin: 0.2rem 0 0.5rem;
 `
 
 export const PostItemDescription = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
 `
