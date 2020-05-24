@@ -27,17 +27,17 @@ export const ProfileAuthor =  styled.div`
   font-size: 1.6rem;
   margin-left: 10px;
   display: flex;
-  flex-direction: column;
-
+  align-items: center;
   ${media.lessThan("large")`
     font-size: 1.2rem;
+    flex-direction: column;
+    align-items: flex-start;
   `}
 `
 
 export const ProfilePosition = styled.small`
   font-size: .8rem;
   font-weight: 300;
-  margin-right: 2rem;
   display: none;
   text-align: right;
   ${media.lessThan("large")`
@@ -47,17 +47,30 @@ export const ProfilePosition = styled.small`
 `
 
 export const ProfileTitle = styled.h1`
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  margin-bottom: 2px;
+  margin-right: .8rem;
   ${media.lessThan("large")`
     font-size: 1.2rem;
   `}
 `
 
-export const ProfileDescription = styled.small`
-  font-size: .8rem;
+export const ProfileDescription = styled.span`
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
+  ${media.lessThan("large")`
+    font-size: .8rem;
+  `}
+  ${media.lessThan("medium")`
+    /* display: none; */
+    max-width: 130px;
+    font-size: .5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  `}
 ` 
 export const ProfileIcon = styled.span`
-  width: 40px;
+  width: 35px;
 ` 

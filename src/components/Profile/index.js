@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import * as S from './styled'
 import getThemeColor from "../../utils/getThemeColor"
-import { Books } from "styled-icons/icomoon/Books"
+import { LaptopCode } from "styled-icons/fa-solid/LaptopCode"
 
 const Profile = () => {
   const {
@@ -25,7 +25,7 @@ const Profile = () => {
       <S.ProfileWrapper>
         <S.ProfileLink to="/" cover direction="left" bg={getThemeColor()} duration={0.6}>
           <S.ProfileIcon>
-            <Books></Books>
+            <LaptopCode></LaptopCode>
           </S.ProfileIcon>
           <S.ProfileAuthor>
             <S.ProfileTitle>{title}</S.ProfileTitle>
