@@ -7,14 +7,10 @@ export const MenuBarWrapper = styled.div`
   align-items: center;
   border-left: 1px solid var(--borders);
   display: flex;
+  justify-content: flex-end;
 
-  ${media.lessThan("large")`
-    flex-direction: row;
-    justify-content: space-between;
-    height: auto;
-    width: 100%;
-    bottom: 0;
-    padding: 0;
+  ${media.lessThan("medium")`
+    border-left: none;
   `}
 `
 
@@ -46,7 +42,7 @@ export const MenuBarItem = styled.span`
   }
 
   &.display {
-    ${media.lessThan("large")`
+    ${media.lessThan("medium")`
       display: none;
     `}
   }
