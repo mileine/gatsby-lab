@@ -5,13 +5,8 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const MenuBarWrapper = styled.div`
   align-items: center;
-  border-left: 1px solid var(--borders);
   display: flex;
   justify-content: flex-end;
-
-  ${media.lessThan("medium")`
-    border-left: none;
-  `}
 `
 
 export const MenuBarGroup = styled.div`
