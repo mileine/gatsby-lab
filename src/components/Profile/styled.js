@@ -1,13 +1,11 @@
 import styled from "styled-components"
 import media from "styled-media-query"
 
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-
 export const ProfileWrapper = styled.section`
   color: var(--white);
   display: flex;
 `
-export const ProfileLink = styled(AniLink)`
+export const ProfileLink = styled.h1`
   color: var(--white);
   text-decoration: none;
   transition: color 0.5s;
@@ -17,10 +15,6 @@ export const ProfileLink = styled(AniLink)`
     display: flex;
     text-align: left;
   `}
-
-  &:hover {
-    color: var(--menuItemHover);
-  }
 `
 
 export const ProfileAuthor =  styled.div`
