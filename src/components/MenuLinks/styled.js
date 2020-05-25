@@ -13,7 +13,6 @@ export const MenuLinksList = styled.ul`
   font-size: 1.2rem;
   font-weight: 300;
   display: flex;
-  margin-right:1rem;
 `
 
 export const MenuLinksItem = styled.li`
