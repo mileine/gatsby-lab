@@ -19,6 +19,12 @@ export const MenuBarLink = styled(AniLink)`
   position: relative;
   width: 3rem;
   text-align: center;
+  &.home {
+    display: none;
+    ${media.lessThan("medium")`
+      display: block;
+    `}
+  }
 `
 
 export const MenuBarItem = styled.span`

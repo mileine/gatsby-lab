@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { SearchAlt2 as Search } from "styled-icons/boxicons-regular/SearchAlt2"
+import { Home } from "styled-icons/boxicons-solid/Home"
 import { Bulb as BulbOff } from "styled-icons/boxicons-regular/Bulb"
 import { Bulb } from "styled-icons/boxicons-solid/Bulb"
 
@@ -20,6 +21,14 @@ const MenuBar = () => {
 
   return (
     <S.MenuBarWrapper>
+      <S.MenuBarLink className="home" to="/" cover
+        direction="right"
+        bg={getThemeColor()}
+        duration={0.6} title="Voltar para Home">
+        <S.MenuBarItem className="home">
+          <Home></Home>
+        </S.MenuBarItem>
+      </S.MenuBarLink>
       <S.MenuBarGroup>
         <S.MenuBarLink to="/search/" cover
           direction="right"
