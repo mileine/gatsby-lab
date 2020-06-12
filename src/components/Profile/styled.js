@@ -1,11 +1,12 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink" 
 
 export const ProfileWrapper = styled.section`
   color: var(--white);
   display: flex;
 `
-export const ProfileLink = styled.h1`
+export const ProfileLink = styled(AniLink)`
   color: var(--white);
   text-decoration: none;
   transition: color 0.5s;

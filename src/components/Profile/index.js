@@ -23,7 +23,7 @@ const Profile = () => {
 
     return(
       <S.ProfileWrapper>
-        <S.ProfileLink bg={getThemeColor()}>
+        <S.ProfileLink bg={getThemeColor()} to="/">
           <S.ProfileIcon>
             <LaptopCode></LaptopCode>
           </S.ProfileIcon>
