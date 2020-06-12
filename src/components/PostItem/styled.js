@@ -4,7 +4,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PostItemLink = styled(AniLink)`
   box-sizing: border-box;
-  width: 25vw;
+  width: 25%;
   color: #8899a6;
   display: flex;
   text-decoration: none;
@@ -14,14 +14,14 @@ export const PostItemLink = styled(AniLink)`
     border-right: none;
   }
   ${media.lessThan("large")`
-    width: 50vw;
+    width: 50%;
     align-items: flex-start;
     &:nth-child(2n) {
       border-right: none;
     }
   `}
   ${media.lessThan("medium")`
-    width: 100vw;
+    width: 100%;
     align-items: flex-start;
     border-right: none !important;
   `}
@@ -37,7 +37,7 @@ export const PostItemWrapper = styled.section`
   flex-direction: column;
   align-items: flex-start;
   padding: 2rem;
-  width: 25vw;
+  width: 100%;
   height: 100%;
   transition: background .8s;
   
@@ -46,14 +46,12 @@ export const PostItemWrapper = styled.section`
   }
 
   ${media.lessThan("large")`
-    width: 50vw;
     align-items: flex-start;
     padding: 1.5rem 1rem; 
   }
 
   `}
   ${media.lessThan("medium")`
-    width: 100vw;
     align-items: flex-start;
     padding: 1.5rem 1rem; 
   `}
