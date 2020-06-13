@@ -5,7 +5,7 @@ export const PostHeader = styled.header`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
-  padding: 5rem 2rem 0;
+  padding: 3rem 2rem 0;
   ${media.lessThan("large")`
     padding: 2rem .8rem; 
   `}

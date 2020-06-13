@@ -4,7 +4,7 @@ import media from 'styled-media-query'
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
-  padding: 2rem 2rem 6rem 2rem;
+  padding: 2rem 2rem 9rem 2rem;
   p,
   h1,
   h2,
