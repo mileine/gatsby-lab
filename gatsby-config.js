@@ -85,10 +85,6 @@ module.exports = {
             variants: [`400`,`300`]
           },
           {
-            family: `Work Sans`,
-            variants: [`400`,`300`,`200`]
-          },
-          {
             family: `Poiret One`
           }
         ],
