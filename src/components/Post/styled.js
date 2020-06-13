@@ -51,4 +51,5 @@ export const PostTag = styled.div`
   padding: .2rem 1rem;
   font-size: 1rem;
   margin-bottom: 1.4rem;
+  letter-spacing: .15rem;
 `

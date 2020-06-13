@@ -3,7 +3,7 @@ title: 'Mayday 五月天 - Tough #nowplaying'
 description: Uma viagem pelo tempo e para dentro...
 date: '2018-03-26 12:33:42'
 category: 'musica'
-background: '#1DB954'
+background: '#15863d'
 thumbnail: assets/img/nowplaying_mayday_tough.png
 published: true
 ---

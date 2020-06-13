@@ -37,9 +37,9 @@ export const PostItemWrapper = styled.section`
 export const PostItemTag = styled.div`
   align-items: center;
   background: ${props => props.background ? props.background : "var(--highlight)"};
-  color: #fff;
+  color: var(--white);
   display: flex;
-  font-size: 1rem;
+  font-size: .8rem;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 5px;
@@ -48,11 +48,7 @@ export const PostItemTag = styled.div`
   min-height: auto;
   font-size: 1rem;
   margin-bottom: .5rem; 
-
-  body#grid & {
-    margin-right: 1rem;
-  }
-
+  letter-spacing: .15rem;
 `
 
 export const PostItemHeader = styled.div`
@@ -73,8 +69,10 @@ export const PostItemInfo = styled.div`
 `
 
 export const PostItemDate = styled.time`
-  font-size: 1rem;
+  font-size: .8rem;
   margin-bottom: 0.5rem;
+  font-family: 'Open sans', sans-serif;
+
 `
 
 export const PostItemTitle = styled.h1`
