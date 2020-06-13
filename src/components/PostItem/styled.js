@@ -4,27 +4,10 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PostItemLink = styled(AniLink)`
   box-sizing: border-box;
-  width: 25%;
+  width: 100%;
   color: #8899a6;
   display: flex;
   text-decoration: none;
-  border-right: 1px dotted var(--borders);
-  border-bottom: 1px dotted var(--borders);
-  &:nth-child(4n){
-    border-right: none;
-  }
-  ${media.lessThan("large")`
-    width: 50%;
-    align-items: flex-start;
-    &:nth-child(2n) {
-      border-right: none;
-    }
-  `}
-  ${media.lessThan("medium")`
-    width: 100%;
-    align-items: flex-start;
-    border-right: none !important;
-  `}
   &:hover {
     color: var(--highlight);
   }
@@ -52,6 +35,7 @@ export const PostItemWrapper = styled.section`
 
   `}
   ${media.lessThan("medium")`
+    width: 100%;
     align-items: flex-start;
     padding: 1.5rem 1rem; 
   `}

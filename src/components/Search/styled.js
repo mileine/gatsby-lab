@@ -26,13 +26,11 @@ export const SearchWrapper = styled.section`
   
   .ais-Hits-list {
     border-top: 1px dotted var(--borders);
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem
   }
+
   .ais-Hits-item {
-    background-color: var(--background);
-    display: flex;
+    border-bottom: 1px dotted var(--borders);
   }
 
   .ais-SearchBox-input {

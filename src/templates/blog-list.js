@@ -27,15 +27,17 @@ const BlogList = props => {
               fields: { slug },
             },
           }) => (
-            <PostItem
-              slug={slug}
-              background={background}
-              category={category}
-              date={date}
-              timeToRead={timeToRead}
-              title={title}
-              description={description}
-            />
+            <S.ListItem>
+              <PostItem
+                slug={slug}
+                background={background}
+                category={category}
+                date={date}
+                timeToRead={timeToRead}
+                title={title}
+                description={description}
+              />
+            </S.ListItem>
           )
         )}
       </S.ListWrapper>
