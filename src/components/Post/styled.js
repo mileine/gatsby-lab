@@ -35,7 +35,7 @@ export const PostDescription = styled.h2`
 `
 
 export const PostDate = styled.p`
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 100;
 `
 export const PostTag = styled.div`

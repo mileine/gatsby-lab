@@ -32,7 +32,7 @@ export const PaginationLink = styled(AniLink)`
   color: var(--highlight);
   display: flex;
   padding: 1rem 2rem;
-  font-size: .8rem;
+  font-size: 1rem;
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;

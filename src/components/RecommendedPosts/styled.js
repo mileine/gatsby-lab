@@ -24,7 +24,7 @@ export const RecommendedLink = styled(AniLink)`
   display: flex;
   text-decoration: none;
   padding: 1rem 2rem;
-  font-size: .8rem;
+  font-size: 1rem;
   transition: background 0.5s;
   width: 50%;
   &:hover {

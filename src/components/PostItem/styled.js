@@ -5,7 +5,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const PostItemLink = styled(AniLink)`
   box-sizing: border-box;
   width: 100%;
-  color: #8899a6;
+  color: var(--postColor);
   display: flex;
   text-decoration: none;
   &:hover {
@@ -39,7 +39,7 @@ export const PostItemTag = styled.div`
   background: ${props => props.background ? props.background : "var(--highlight)"};
   color: #fff;
   display: flex;
-  font-size: .8rem;
+  font-size: 1rem;
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 5px;
@@ -73,17 +73,17 @@ export const PostItemInfo = styled.div`
 `
 
 export const PostItemDate = styled.time`
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
 `
 
 export const PostItemTitle = styled.h1`
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0.2rem 0 0.5rem;
 `
 
 export const PostItemDescription = styled.p`
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
 `

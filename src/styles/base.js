@@ -15,14 +15,14 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--postColor);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 1.4;
     letter-spacing: 0.069rem;
     padding: 0;
   }
   p {
-    margin: .8rem 0;
+    margin: 1.6rem 0;
   }
   ul,
   ol {
