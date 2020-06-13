@@ -12,6 +12,9 @@ export const ProfileLink = styled(AniLink)`
   transition: color 0.5s;
   display: flex;
   align-items: center;
+  &:hover {
+    color: var(--menuItemHover);
+  }
   ${media.lessThan("large")`
     display: flex;
     text-align: left;

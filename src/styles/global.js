@@ -68,8 +68,8 @@ const GlobalStyles = createGlobalStyle`
     --topbarBackground: #192734;
     --postItemBackground: #1d2a39;
     --lightHover: #d4d400;
-    --menuItemHover: #8ea8c6;
-    --socialLinksHover: #8ea8c6;
+    --menuItemHover: #74eeef;
+    --socialLinksHover: #74eeef;
   }
 
   body.light {
@@ -85,7 +85,7 @@ const GlobalStyles = createGlobalStyle`
     --topbarBackground: #491a4f;
     --postItemBackground: #f8f9fa;
     --lightHover: #cfdae7;
-    --menuItemHover: #cfdae7;
+    --menuItemHover: #97f2f3;
     --socialLinksHover: #129FA1;
   }
 `
