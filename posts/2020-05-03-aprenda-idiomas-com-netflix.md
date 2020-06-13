@@ -1,6 +1,6 @@
 ---
 title: Aprenda idiomas com Netflix
-description: ... usando a melhor extensão do Chrome
+description: Minha extensão do Chrome favorita
 date: '2020-05-03 07:08:35'
 category: languages
 background: '#00bfb2'
@@ -10,7 +10,7 @@ published: true
 
 `youtube: https://youtu.be/pMrWX2dlGIM`
 
-Aprenda idiomas com melhor extensão para Chrome:[ https://languagelearningwithnetflix.com/](https://languagelearningwithnetflix.com/)
+Language Learning with Netflix:[ https://languagelearningwithnetflix.com/](https://languagelearningwithnetflix.com/)
 
 <blockquote>
 Language Learning with Netflix is a free, simple Chrome extension that automatically works when you log into Netflix. It displays the subtitles of whatever you’re watching in both your native language and your target language, so that you can see them at the same time. This is an incredible benefit to language learners. When you’re starting out learning a language, sometimes you can’t quite catch what people are saying. They’re too fast, or they use words/grammar you’re unfamiliar with. Being able to see the subtitles and hear the dialogue and see the translation all at once is a dream come true.
