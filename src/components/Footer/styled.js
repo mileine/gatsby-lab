@@ -13,6 +13,9 @@ export const FooterWrapper = styled.footer`
   position: fixed;
   bottom: 0;
   padding: 0;
+  ${media.lessThan("medium")`
+    display: none;
+  `}
 `
 
 export const FooterGroup = styled.div`

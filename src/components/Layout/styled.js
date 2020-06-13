@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from "styled-media-query"
 
 export const LayoutWrapper = styled.section`
   display: flex;
@@ -6,16 +7,14 @@ export const LayoutWrapper = styled.section`
 `
 export const LayoutMain = styled.main`
   background: var(--background);
-  padding: 0;
   width: 100%;
+  padding: 0;
   min-height: 100vh;
+`
+export const LayoutMainContent = styled.section`
   margin-top: 4rem;
-
-  body#grid & {
-    grid-template-areas:
-      "posts"
-      "pagination";
-    flex-direction: column;
-    padding: 0;
-  }  
+  padding: 3rem;
+  ${media.lessThan("large")`
+    padding: 2rem 3rem;
+  `}
 `

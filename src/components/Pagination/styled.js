@@ -11,19 +11,19 @@ export const PaginationWrapper = styled.section`
   bottom: 3rem;
   width: 100%;
   z-index: 5;
+  ${media.lessThan("medium")`
+    bottom: 0;
+  `}
 `
 
 export const PaginationStatus = styled.p`
   color: var(--highlight);
-  padding: 1.5rem 3rem;
+  font-size: .8rem;
+  padding: 1rem 2rem;
   min-width: 50%;
   &.last {
     text-align: right;
   }
-  ${media.lessThan("large")`
-    padding: 1rem; 
-    font-size: .8rem;
-  `}
 `
 
 export const PaginationLink = styled(AniLink)`
@@ -31,7 +31,8 @@ export const PaginationLink = styled(AniLink)`
   background: var(--mediumBackground);
   color: var(--highlight);
   display: flex;
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
+  font-size: .8rem;
   text-decoration: none;
   transition: background 0.5s;
   width: 50%;
@@ -58,8 +59,4 @@ export const PaginationLink = styled(AniLink)`
     content: "\\2192";
     margin-left: 0.5rem;
   }
-  ${media.lessThan("large")`
-    padding: 1rem; 
-    font-size: .8rem;
-  `}
 `

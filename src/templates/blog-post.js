@@ -27,7 +27,9 @@ const BlogPost = ({ data, pageContext }) => {
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
       <MainContent>
-        <MDXRenderer>{post.body}</MDXRenderer>
+        <S.PostContent>
+          <MDXRenderer>{post.body}</MDXRenderer>
+        </S.PostContent>
       </MainContent>
       <RecommendedPosts next={next} previous={previous} />
     </Layout>

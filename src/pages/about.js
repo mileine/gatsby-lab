@@ -2,10 +2,12 @@ import React from 'react'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import { MainContent } from '../styles/base'
+import * as S from "../components/Layout/styled"
 
 const AboutPage = () => (<Layout>
     <MainContent>
     <SEO title="About"/>
+      <S.LayoutMainContent>
         <h1>Sobre</h1>
 
         <p>Este blog foi desenvolvido durante <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/">o curso de Gatsby</a> que fiz pela Udemy com o instrutor <a href="https://willianjusten.com.br/">Willian Justen.</a> Ali ele ensina passo-a-passo como criar um blog igual ao dele utilizando <a href="https://www.gatsbyjs.org/">Gatsby</a>. Recomendo muito e falo um pouquinho mais sobre o curso <a href="/curso-gatsby/">aqui</a>.</p>
@@ -26,7 +28,7 @@ const AboutPage = () => (<Layout>
         <hr/>
 
         <p>Última atualização em 10/05/2020.</p>
-
+      </S.LayoutMainContent>
     </MainContent>
   </Layout>
 )

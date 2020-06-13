@@ -4,7 +4,6 @@ import media from 'styled-media-query'
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
-  padding: 2rem 2rem 9rem 2rem;
   p,
   h1,
   h2,
@@ -20,17 +19,10 @@ export const MainContent = styled.section`
     font-weight: 300;
     line-height: 1.4;
     letter-spacing: 0.069rem;
-    padding: 0 1.4rem;
+    padding: 0;
   }
   p {
-    margin: 0 auto .8rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: 2.4rem auto 1rem;
+    margin: .8rem 0;
   }
   ul,
   ol {
@@ -56,7 +48,6 @@ export const MainContent = styled.section`
     margin: 1.875rem auto;
   }
   iframe {
-    padding: 1rem;
     max-width: 100%;
   }
   blockquote {
@@ -148,7 +139,7 @@ export const MainContent = styled.section`
     font-weight: bold;
   }
   ${media.lessThan("large")`
-    padding: .8rem .8rem  6rem .8rem; 
+    padding: 0; 
     font-size: 1rem;
   `}
 `
