@@ -23,7 +23,7 @@ export const MainContent = styled.section`
     padding: 0 1.4rem;
   }
   p {
-    margin: 0 auto .5rem;
+    margin: 0 auto .8rem;
   }
   h1,
   h2,

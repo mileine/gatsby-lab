@@ -81,7 +81,7 @@ module.exports = {
       options: {
         fonts: [
           {
-            family: `Quattrocento Sans`,
+            family: `Open Sans`,
             variants: [`400`]
           },
         ],
