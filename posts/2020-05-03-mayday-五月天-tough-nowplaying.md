@@ -5,6 +5,7 @@ date: '2018-03-26 12:33:42'
 category: misc
 background: '#0792ae'
 thumbnail: assets/img/nowplaying_mayday_tough.png
+published: true
 ---
 
 `youtube: https://www.youtube.com/watch?v=YKiMrg6rgYQ`

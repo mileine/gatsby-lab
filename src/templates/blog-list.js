@@ -49,6 +49,9 @@ const BlogList = props => {
 export const query = graphql`
   query PostList($skip: Int!, $limit: Int!) {
     allMdx (
+      filter: {
+        frontmatter: { published: { eq: true } }
+      }
       sort: { fields: frontmatter___date, order: DESC} 
       limit: $limit
       skip: $skip

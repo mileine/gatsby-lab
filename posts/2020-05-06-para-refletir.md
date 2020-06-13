@@ -4,6 +4,7 @@ title: Sobre um Eremita
 description: Para refletir todos os dias. 
 category: misc
 background: "#0792ae"
+published: true
 ---
 
 Um velho Eremita refugiou-se nas montanhas para se dedicar à meditação e oração. Ele costumava ser visto como muito ocupado.

@@ -5,6 +5,7 @@ date: '2020-01-25 03:54:23'
 category: frontend
 background: '#e7508c'
 thumbnail: assets/img/undraw_youtube_tutorial_2gn3.png
+published: true
 ---
 ![Youtube Tutorial - illustration by undraw.co](assets/img/undraw_youtube_tutorial_2gn3.png "Youtube Tutorial - illustration by undraw.co")
 

@@ -5,6 +5,7 @@ date: '2019-03-07 12:51:34'
 category: a11y
 background: '#812d8a'
 thumbnail: assets/img/Screen Shot 2020-05-02 at 12.57.14.png
+published: true
 ---
 
 `youtube: https://www.youtube.com/watch?v=ecE-oRh6-b8`

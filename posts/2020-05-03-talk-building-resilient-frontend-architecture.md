@@ -5,6 +5,7 @@ date: '2020-05-03 12:11:27'
 category: frontend
 background: '#e7508c'
 thumbnail: assets/img/talk_why_do_we_usually_rewrite_code.png
+published: true
 ---
 
 `youtube: https://www.youtube.com/watch?v=TqfbAXCCVwE&t=8s`
