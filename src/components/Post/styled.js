@@ -32,3 +32,18 @@ export const PostDate = styled.p`
   font-weight: 100;
   padding: 0 1.4rem;
 `
+export const PostTag = styled.div`
+  align-items: center;
+  background: ${props => props.background ? props.background : "var(--highlight)"};
+  width: min-content;
+  color: #fff;
+  display: flex;
+  font-size: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: .2rem 1rem;
+  font-size: 1rem;
+  margin-bottom: 1.4rem;
+  margin-left: 1.4rem; 
+`

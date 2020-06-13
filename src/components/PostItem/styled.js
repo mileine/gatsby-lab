@@ -23,16 +23,12 @@ export const PostItemWrapper = styled.section`
   width: 100%;
   height: 100%;
   transition: background .8s;
-  
   &:hover {
     background: var(--postItemBackground);
   }
-
   ${media.lessThan("large")`
     align-items: flex-start;
-    padding: 1.5rem 1rem; 
-  }
-
+    padding: 1.5rem 1rem;
   `}
   ${media.lessThan("medium")`
     width: 100%;
@@ -44,7 +40,6 @@ export const PostItemWrapper = styled.section`
 export const PostItemTag = styled.div`
   align-items: center;
   background: ${props => props.background ? props.background : "var(--highlight)"};
-
   color: #fff;
   display: flex;
   font-size: .8rem;

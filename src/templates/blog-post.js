@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import { MainContent } from '../styles/base'
 import { MDXRenderer } from "gatsby-plugin-mdx"
+import PropTypes from "prop-types"
 
 import * as S from "../components/Post/styled"
 
@@ -18,6 +19,7 @@ const BlogPost = ({ data, pageContext }) => {
     <Layout>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image}/>
       <S.PostHeader>
+        <S.PostTag background={post.frontmatter.background}>{post.frontmatter.category}</S.PostTag>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>
@@ -39,9 +41,11 @@ export const query = graphql`
         slug
       }
       frontmatter {
+        background
         title
         description
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+        category
       }
       body
       timeToRead
@@ -49,4 +53,8 @@ export const query = graphql`
   }
 `
 
+BlogPost.propTypes = {
+  background: PropTypes.string,
+  category: PropTypes.string
+}
 export default BlogPost
