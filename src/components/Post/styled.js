@@ -15,8 +15,8 @@ export const PostContent = styled.section`
   color: var(--postColor);
   margin: auto;
   max-width: 70rem;
-  padding: 3rem;
-  margin-bottom: 5.7em;
+  padding: 0 3rem;
+  margin-bottom: 9rem;
   ${media.lessThan("large")`
     padding: 2rem 3rem;
   `}
