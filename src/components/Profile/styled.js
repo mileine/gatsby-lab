@@ -51,6 +51,7 @@ export const ProfileDescription = styled.span`
   font-size: .8rem;
   font-weight: 300;
   line-height: 1.4;
+  letter-spacing: .1rem;
   ${media.lessThan("large")`
     font-size: .8rem;
   `}
