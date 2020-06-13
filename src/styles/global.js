@@ -58,8 +58,8 @@ const GlobalStyles = createGlobalStyle`
 
   body.dark {
     --borders: #38444d;
-    --texts: #f5f5f5;
-    --postColor: #f5f5f5;
+    --texts: #d7dce1;
+    --postColor: #d7dce1;
     --highlight: #129FA1;
     --mediumBackground: #192734;
     --background: #16202c;
