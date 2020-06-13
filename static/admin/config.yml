@@ -41,6 +41,9 @@ collections:
           { label: 'misc', value: '#0792ae' },
           { label: 'languages', value: '#00bfb2' },
           { label: 'log', value: '#1a5e63' },
+          { label: 'musica', value: '#1DB954' },
+          { label: 'crescendo', value: '#1fa1f2' }
+          { label: 'cursos', value: '#637a91' }
         ]
       }
       - { label: "image", name: "thumbnail", widget: "image" }
