@@ -36,13 +36,16 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
     background: #16202c;
     font-size: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 300;
   }
   ol, ul {
   list-style: none;
   }
   blockquote, q {
-  quotes: none;
+    quotes: none;
+    font-family: 'Poiret One', sans-serif;
+    font-weight: 300;
   }
   blockquote:before, blockquote:after,
   q:before, q:after {

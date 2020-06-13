@@ -23,7 +23,6 @@ export const PostContent = styled.section`
 `
 export const PostTitle = styled.h1`
   font-size: 1.6rem;
-  font-weight: 700;
   margin: 1rem auto;
   ${media.lessThan("medium")`
     font-size: 1.4rem;

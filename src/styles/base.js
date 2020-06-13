@@ -49,13 +49,14 @@ export const MainContent = styled.section`
   }
   iframe {
     max-width: 100%;
+    padding-bottom: 2rem;
   }
   blockquote {
     color: var(--postColor);
     border-left: 0.3rem solid var(--highlight);
     padding-left: 1rem;
     margin: 3.125rem auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.8;
   }
   hr {
