@@ -69,10 +69,8 @@ export const PostItemInfo = styled.div`
 `
 
 export const PostItemDate = styled.time`
-  font-size: .8rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
-  font-family: 'Open sans', sans-serif;
-
 `
 
 export const PostItemTitle = styled.h1`
