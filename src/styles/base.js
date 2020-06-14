@@ -22,7 +22,7 @@ export const MainContent = styled.section`
     padding: 0;
   }
   p {
-    margin: 1.6rem 0;
+    margin: 0 0 1.6rem 0;
   }
   ul,
   ol {
@@ -46,6 +46,9 @@ export const MainContent = styled.section`
     display: block;
     max-width: 100%;
     margin: 1.875rem auto;
+  }
+  pre[class*="language-"] {
+    margin-bottom: 1.6rem;
   }
   iframe {
     max-width: 100%;
@@ -111,7 +114,7 @@ export const MainContent = styled.section`
     }
   }
   .gatsby-highlight {
-    padding: 0 1.6rem 1.6rem;
+    padding: 0;
   }
   .instagram-media {
     margin: 1rem auto !important;

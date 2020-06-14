@@ -6,7 +6,7 @@ export const PostHeader = styled.header`
   margin: auto;
   max-width: 70rem;
   margin-top: 4rem;
-  padding: 3rem 3rem 0 3rem;
+  padding: 3rem;
   ${media.lessThan("large")`
     padding: 2rem 2rem 0 2rem;
   `}
