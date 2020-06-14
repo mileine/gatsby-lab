@@ -6,9 +6,9 @@ export const PostHeader = styled.header`
   margin: auto;
   max-width: 70rem;
   margin-top: 4rem;
-  padding: 3rem;
+  padding: 3rem 3rem 0 3rem;
   ${media.lessThan("large")`
-    padding: 2rem 3rem;
+    padding: 2rem 2rem 0 2rem;
   `}
 `
 export const PostContent = styled.section`
@@ -23,6 +23,7 @@ export const PostContent = styled.section`
 `
 export const PostTitle = styled.h1`
   font-size: 1.6rem;
+  letter-spacing: 0.09rem;
   margin: 1rem auto;
   ${media.lessThan("medium")`
     font-size: 1.4rem;
@@ -35,8 +36,9 @@ export const PostDescription = styled.h2`
 `
 
 export const PostDate = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 100;
+  letter-spacing: 0.09rem;
 `
 export const PostTag = styled.div`
   align-items: center;
