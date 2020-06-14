@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `#nowLearning`,
     position: `Front-end/UI dev`,
-    description: `{ Front-end, CSS, Creative work, Languages, ღ }`,
+    description: `{ Front-end, CSS, Creative work, Languages, ❤ }`,
     author: `@myblog`,
     siteUrl: `https://mileine.netlify.com/`
   },
