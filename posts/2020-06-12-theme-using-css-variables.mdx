@@ -1,11 +1,62 @@
 ---
 title: 'Implementando temas usando variáveis CSS'
-description: "Prepare sua aplicação para modos dark/default"
+description: "Preparando uma aplicação web para modos dark/default"
 date: '2020-06-12 00:05:42'
 category: misc
 background: '#0792ae'
 thumbnail: assets/img/lake.png
-published: false
+published: true
 ---
 
-<iframe width="100%" height="300" src="//jsfiddle.net/mileine/L0vw9fza/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<p>Há alguns meses, precisei trabalhar na implementação de temas para uma aplicação web para permitir que usuários pudessem utilizá-la em modo escuro (famoso 'dark mode').</p>
+
+<p>Descobri que uma das maneiras mais limpas de implementar temas é usando variáveis CSS e atributos HTML. Fiz uma pequena demo usando essa abordagem. =)</p>
+
+<p>No HTML, o tema é definido por um atributo que escolhi deixar atrelado ao body:</p>
+
+```html
+<body data-theme='default'>
+```
+
+<p>No CSS, listei as cores para cada tema:</p>
+
+```css
+/* color variables */
+body[data-theme='default'] {
+  --text-color: #6b8090;
+  --background-color: #f0f0f3;
+  --borders: #777777;
+  --btn: pink;
+}
+
+body[data-theme='dark'] {
+  --text-color: #d7dce1;
+  --background-color: #16202c;
+  --borders: #38444d;
+  --btn: teal;
+}
+```
+
+<p>Observe que é importante manter a mesma lista de variáveis para as cores que dependam do tema selecionado. Desta forma, podemos escrever os estilos tranquilamente, confiando no super poder das variáveis CSS. \o/</p>
+
+```css
+a:hover {
+  background: var(--btn-highlight);
+  border-color: var(--btn-highlight);
+  color: var(--white);
+}
+
+p, h1 {
+  color: var(--text-color);
+}
+```
+
+<p>Para ver funcionando:</p>
+
+<iframe width="100%" height="300" src="//jsfiddle.net/mileine/vambtxy7/35/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+<p>O que eu mais gosto sobre essa abordagem é que as propriedades CSS são escritas uma única vez, ou seja, não é necessário manter dois arquivos CSS (ex.: theme-default.css, theme-dark.css).</p>
+
+<hr/>
+
+<p>Referência: <a href="https://medium.com/@mwichary/dark-theme-in-a-day-3518dde2955a">Dark theme in a day</a></p>
