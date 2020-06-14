@@ -83,6 +83,9 @@ module.exports = {
           {
             family: `Open Sans`,
             variants: [`400`,`300`]
+          },{
+            family: `Montserrat`,
+            variants: [`400`]
           },
           {
             family: `Poiret One`

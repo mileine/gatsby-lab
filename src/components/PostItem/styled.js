@@ -48,7 +48,6 @@ export const PostItemTag = styled.div`
   min-height: auto;
   font-size: 1rem;
   margin-bottom: .5rem; 
-  letter-spacing: .15rem;
 `
 
 export const PostItemHeader = styled.div`
@@ -76,8 +75,7 @@ export const PostItemDate = styled.time`
 export const PostItemTitle = styled.h1`
   font-size: 1.4rem;
   margin: 0.5rem 0 1rem;
-  letter-spacing: 0.09rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
 `
 
 export const PostItemDescription = styled.p`

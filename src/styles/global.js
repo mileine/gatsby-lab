@@ -35,9 +35,7 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
     background: #16202c;
     font-size: 100%;
-    font-family: 'Poiret One', sans-serif;
-    font-weight: 300;
-    letter-spacing: .09rem;
+    font-family: 'Montserrat', sans-serif;
   }
   ol, ul {
   list-style: none;
@@ -75,7 +73,7 @@ const GlobalStyles = createGlobalStyle`
 
   body.light {
     --borders: #dedede;
-    --postColor: #333;
+    --postColor: #777;
     --texts: #555555;
     --highlight: #129FA1;
     --mediumBackground: #f0f0f3;
