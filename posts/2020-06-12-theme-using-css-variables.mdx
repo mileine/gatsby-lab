@@ -2,15 +2,15 @@
 title: 'Implementando temas usando variáveis CSS'
 description: "Preparando uma aplicação web para modos dark/default"
 date: '2020-06-12 00:05:42'
-category: misc
-background: '#0792ae'
+category: frontend
+background: '#e7508c'
 thumbnail: assets/img/lake.png
 published: true
 ---
 
 <p>Há alguns meses, precisei trabalhar na implementação de temas para uma aplicação web para permitir que usuários pudessem utilizá-la em modo escuro (famoso 'dark mode').</p>
 
-<p>Descobri que uma das maneiras mais limpas de implementar temas é usando variáveis CSS e atributos HTML. Fiz uma pequena demo usando essa abordagem. =)</p>
+<p>Descobri que uma das maneiras mais limpas de implementar temas é usando variáveis CSS e atributos HTML. Apesar da solução ter tomado outro caminho lá no trabalho, fiquei com muita vontade de deixar registrado o que aprendi e fiz uma pequena demo usando essa abordagem. =)</p>
 
 <p>No HTML, o tema é definido por um atributo que escolhi deixar atrelado ao body:</p>
 
@@ -56,6 +56,8 @@ p, h1 {
 <iframe width="100%" height="300" src="//jsfiddle.net/mileine/vambtxy7/35/embedded/result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 <p>O que eu mais gosto sobre essa abordagem é que as propriedades CSS são escritas uma única vez, ou seja, não é necessário manter dois arquivos CSS (ex.: theme-default.css, theme-dark.css).</p>
+
+<p>Por enquanto, precisamos usar polyfills se quisermos ver essa solução funcionar no IE10. Mas ela fica uma belezinha no Chrome, Firefox e no Edge. ❤ </p>
 
 <hr/>
 
