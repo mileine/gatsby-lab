@@ -37,6 +37,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 100%;
     font-family: 'Poiret One', sans-serif;
     font-weight: 300;
+    letter-spacing: .09rem;
   }
   ol, ul {
   list-style: none;
