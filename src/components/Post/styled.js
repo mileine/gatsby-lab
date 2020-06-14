@@ -12,7 +12,7 @@ export const PostHeader = styled.header`
   `}
 `
 export const PostContent = styled.section`
-  color: var(--black);
+  color: var(--postColor);
   margin: auto;
   max-width: 70rem;
   padding: 0 3rem;

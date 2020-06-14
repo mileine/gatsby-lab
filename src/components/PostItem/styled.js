@@ -5,7 +5,7 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 export const PostItemLink = styled(AniLink)`
   box-sizing: border-box;
   width: 100%;
-  color: var(--black);
+  color: var(--postColor);
   display: flex;
   text-decoration: none;
   &:hover {
