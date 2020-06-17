@@ -4,6 +4,7 @@ title: Sobre um Eremita
 description: Para refletir todos os dias. 
 category: 'refletindo'
 background: "#0c86d2"
+type: personal
 published: true
 ---
 

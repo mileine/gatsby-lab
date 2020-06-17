@@ -5,6 +5,7 @@ date: '2019-03-07 04:57:04'
 category: design
 background: '#800080'
 thumbnail: assets/img/talk_why-design-systems-fail.png
+type: work
 published: true
 ---
 

@@ -5,6 +5,7 @@ date: '2020-05-03 01:14:11'
 category: log
 background: '#1a5e63'
 thumbnail: assets/img/undraw_work_in_progress_uhmv.png
+type: work
 published: true
 ---
 ![Work in progress - illustration by undraw.co](assets/img/undraw_work_in_progress_uhmv.png "Work in progress - illustration by undraw.co")

@@ -5,6 +5,7 @@ date: '2018-03-26 12:33:42'
 category: 'musica'
 background: '#15863d'
 thumbnail: assets/img/nowplaying_mayday_tough.png
+type: personal
 published: true
 ---
 

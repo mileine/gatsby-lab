@@ -7,6 +7,7 @@ date: '2019-03-07 03:09:37'
 category: design
 background: '#800080'
 thumbnail: assets/img/undraw_animating_1rgh.png
+type: work
 published: true
 ---
 ![Animation for web](assets/img/undraw_animating_1rgh.png "Animation for web")

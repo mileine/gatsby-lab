@@ -5,6 +5,7 @@ date: '2020-02-05 11:43:46'
 category: frontend
 background: '#e7508c'
 thumbnail: assets/img/undraw-tutorial.png
+type: work
 published: true
 ---
 ![Tutorial - illustration by undraw.co](assets/img/undraw-tutorial.png "Tutorial  - illustration by undraw.co")
