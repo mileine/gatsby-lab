@@ -3,18 +3,16 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
-import Pagination from "../components/Pagination"
 import * as S from "../components/ListWrapper/styled"
 
-const BlogList = props => {
-  const postList = props.data.allMdx.edges
-  const { currentPage, numPages } = props.pageContext
+const PostListWork = props => {
+  const postListWork = props.data.allMdx.edges
 
   return (
     <Layout>
-      <SEO title="Home"/>
+      <SEO title="Work"/>
       <S.ListWrapper>
-        {postList.map(
+        {postListWork.map(
           ({
             node: {
               frontmatter: { background, category, date, description, title },
@@ -41,10 +39,10 @@ const BlogList = props => {
 }
 
 export const query = graphql`
-  query PostList($limit: Int!) {
+  query PostListWork($limit: Int!) {
     allMdx (
       filter: {
-        frontmatter: { published: { eq: true } }
+        frontmatter: { published: { eq: true }, type: { in: "work" } }
       }
       sort: { fields: frontmatter___date, order: DESC} 
       limit: $limit
@@ -68,4 +66,4 @@ export const query = graphql`
   }
 `
 
-export default BlogList
+export default PostListWork

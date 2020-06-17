@@ -81,20 +81,26 @@ exports.createPages = ({ graphql, actions }) => {
       })
     })
 
-    const postsPerPage = 20
+    const postsPerPage = 2000
     const numPages = Math.ceil(posts.length / postsPerPage)
   
-    Array.from({ length: numPages }).forEach((_, index) => {
+    Array.from({ length: numPages }).forEach((_, index1) => {
       createPage ({
-        path: index === 0 ? `/`: `/page/${index + 1}`,
+        path: index1 === 0 ? `/`: `/page/${index1 + 1}`,
         component: path.resolve(`./src/templates/blog-list.js`),
-        context: {
-          limit: postsPerPage,
-          skip: index * postsPerPage,
-          numPages,
-          currentPage: index + 1,
-        },
       })
-    }) 
+    })
+    Array.from({ length: numPages }).forEach((_, index2) => {
+      createPage ({
+        path: index2 === 0 ? `personal/`: `/page/${index2 + 1}`,
+        component: path.resolve(`./src/templates/blog-list-personal.js`),
+      })
+    })
+    Array.from({ length: numPages }).forEach((_, index3) => {
+      createPage ({
+        path: index3 === 0 ? `work/`: `/page/${index3 + 1}`,
+        component: path.resolve(`./src/templates/blog-list-work.js`),
+      })
+    })
   })
 }

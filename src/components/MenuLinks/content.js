@@ -4,6 +4,14 @@ const links = [
     url: "/",
   },
   {
+    label: "Tech",
+    url: "/work",
+  },
+  {
+    label: "Pessoal",
+    url: "/personal",
+  },
+  {
     label: "Sobre",
     url: "/about",
   }
