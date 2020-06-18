@@ -27,7 +27,7 @@ collections:
         label: "Category",
         name: "category",
         widget: "select",
-        options: ["design", "a11y", "css", "frontend", "misc", "languages", "log"]
+        options: ["design", "acessibilidade", "css", "frontend", "misc", "languages", "log"]
       }
       - {
         label: "Background",
@@ -35,7 +35,7 @@ collections:
         widget: "select",
         options: [
           { label: 'design', value: '#800080' },
-          { label: 'a11y', value: '#812d8a' },
+          { label: 'acessibilidade', value: '#812d8a' },
           { label: 'css', value: '#af125a' },
           { label: 'frontend', value: '#e7508c' },
           { label: 'misc', value: '#0792ae' },

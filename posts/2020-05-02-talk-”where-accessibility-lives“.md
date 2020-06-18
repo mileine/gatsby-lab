@@ -2,7 +2,7 @@
 title: '[Talk] Where Accessibility Lives'
 description: A case about a brilliant team that had to do some work on accessibility on a project they thought "it was done".
 date: '2019-03-07 12:51:34'
-category: a11y
+category: acessibilidade
 background: '#812d8a'
 thumbnail: assets/img/Screen Shot 2020-05-02 at 12.57.14.png
 type: work
