@@ -39,13 +39,12 @@ const Personal = props => {
 }
 
 export const query = graphql`
-  query Personal($limit: Int!) {
+  query Personal {
     allMdx (
       filter: {
         frontmatter: { published: { eq: true }, type: { in: "personal" } }
       }
       sort: { fields: frontmatter___date, order: DESC} 
-      limit: $limit
     ) {
       edges {
         node {

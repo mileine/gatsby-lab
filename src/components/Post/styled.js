@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import media from "styled-media-query"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PostHeader = styled.header`
   color: var(--postColor);
@@ -18,7 +19,7 @@ export const PostContent = styled.section`
   padding: 0 3rem;
   margin-bottom: 9rem;
   ${media.lessThan("large")`
-    padding: 2rem 3rem;
+    padding: 2rem;
   `}
 `
 export const PostTitle = styled.h1`
@@ -38,7 +39,7 @@ export const PostDate = styled.p`
   font-size: 1rem;
   font-weight: 100;
 `
-export const PostTag = styled.div`
+export const PostTag = styled(AniLink)`
   align-items: center;
   background: ${props => props.background ? props.background : "var(--highlight)"};
   width: min-content;
@@ -51,4 +52,5 @@ export const PostTag = styled.div`
   padding: .2rem 1rem;
   font-size: 1rem;
   margin-bottom: 1.4rem;
+  text-decoration: none;
 `

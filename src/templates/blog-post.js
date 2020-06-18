@@ -7,7 +7,7 @@ import RecommendedPosts from "../components/RecommendedPosts"
 import { MainContent } from '../styles/base'
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import PropTypes from "prop-types"
-
+import getThemeColor from "../utils/getThemeColor"
 import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
@@ -19,7 +19,11 @@ const BlogPost = ({ data, pageContext }) => {
     <Layout>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image}/>
       <S.PostHeader>
-        <S.PostTag background={post.frontmatter.background}>{post.frontmatter.category}</S.PostTag>
+        <S.PostTag background={post.frontmatter.background} cover
+            bg={getThemeColor()} direction="left"
+            duration={0.6}
+            to={'/categories/' + post.frontmatter.category}
+            activeClassName="active">{post.frontmatter.category}</S.PostTag>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>

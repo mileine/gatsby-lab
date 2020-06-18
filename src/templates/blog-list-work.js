@@ -39,13 +39,12 @@ const PostListWork = props => {
 }
 
 export const query = graphql`
-  query PostListWork($limit: Int!) {
+  query PostListWork{
     allMdx (
       filter: {
         frontmatter: { published: { eq: true }, type: { in: "work" } }
       }
       sort: { fields: frontmatter___date, order: DESC} 
-      limit: $limit
     ) {
       edges {
         node {

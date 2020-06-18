@@ -3,17 +3,22 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
-import Pagination from "../components/Pagination"
 import * as S from "../components/ListWrapper/styled"
+import PropTypes from "prop-types"
 
-const BlogList = props => {
-  const postList = props.data.allMdx.edges
+const PostListCategory = ({ pageContext, data }) => {
+  const { category } = pageContext
+  const { edges, totalCount } = data.allMdx
+  const tagHeader = `${totalCount} post${
+    totalCount === 1 ? "" : "s"
+  } em "${category}"`
 
   return (
     <Layout>
-      <SEO title="Home"/>
+      <SEO title="Work"/>
+      <h1>{tagHeader}</h1>
       <S.ListWrapper>
-        {postList.map(
+        {edges.map(
           ({
             node: {
               frontmatter: { background, category, date, description, title },
@@ -39,14 +44,40 @@ const BlogList = props => {
   )
 }
 
+PostListCategory.propTypes = {
+  pageContext: PropTypes.shape({
+    category: PropTypes.string.isRequired,
+  }),
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.shape({
+      totalCount: PropTypes.number.isRequired,
+      edges: PropTypes.arrayOf(
+        PropTypes.shape({
+          node: PropTypes.shape({
+            frontmatter: PropTypes.shape({
+              title: PropTypes.string.isRequired,
+            }),
+            fields: PropTypes.shape({
+              slug: PropTypes.string.isRequired,
+            }),
+          }),
+        }).isRequired
+      ),
+    }),
+  }),
+}
+
+export default PostListCategory
+
 export const query = graphql`
-  query PostList {
+  query($category: String) {
     allMdx (
       filter: {
-        frontmatter: { published: { eq: true } }
+        frontmatter: { published: { eq: true }, category: { in: [$category] } }
       }
       sort: { fields: frontmatter___date, order: DESC} 
     ) {
+      totalCount,
       edges {
         node {
           fields{
@@ -66,4 +97,3 @@ export const query = graphql`
   }
 `
 
-export default BlogList

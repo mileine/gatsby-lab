@@ -1,4 +1,5 @@
 const path = require("path")
+const _ = require("lodash")
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -25,7 +26,7 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
   return graphql(`
     {
-      allMdx (
+      postsRemark: allMdx (
         filter: {
           frontmatter: { published: { eq: true } }
         }
@@ -63,9 +64,14 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
+      categoriesGroup: allMdx(limit: 2000) {
+        group(field: frontmatter___category) {
+          fieldValue
+        }
+      }
     }
   `).then(result => {
-    const posts = result.data.allMdx.edges
+    const posts = result.data.postsRemark.edges
 
     posts.forEach(({ node, next, previous }) => {
       createPage({
@@ -100,6 +106,19 @@ exports.createPages = ({ graphql, actions }) => {
       createPage ({
         path: index3 === 0 ? `work/`: `/page/${index3 + 1}`,
         component: path.resolve(`./src/templates/blog-list-work.js`),
+      })
+    })
+
+    // Extract tag data from query
+    const categories = result.data.categoriesGroup.group
+    // Make tag pages
+    categories.forEach(category => {
+      createPage({
+        path: `/categories/${_.kebabCase(category.fieldValue)}/`,
+        component: path.resolve(`./src/templates/blog-list-category.js`),
+        context: {
+          category: category.fieldValue
+        },
       })
     })
   })
