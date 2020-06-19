@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const TopbarWrapper = styled.div`
   position: fixed;
@@ -14,4 +15,11 @@ export const TopbarWrapper = styled.div`
 export const TopbarLinks = styled.div`
   display: flex;
   align-items: center;
+`
+export const TopbarItem = styled.span`
+  &.menu-links {
+    ${media.lessThan("medium")`
+      display: none;
+    `}
+  }
 `

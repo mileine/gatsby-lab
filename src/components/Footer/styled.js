@@ -12,7 +12,14 @@ export const FooterWrapper = styled.footer`
   height: 3rem;
   position: fixed;
   bottom: 0;
-  padding: 0;
+  padding: 0 1rem;
+  justify-content: center;
+  ${media.lessThan("medium")`
+    justify-content: space-between;
+  `}
+  ${media.lessThan("small")`
+    justify-content: center;
+  `}
 `
 
 export const FooterGroup = styled.div`
@@ -24,28 +31,15 @@ export const FooterLink = styled(AniLink)`
 `
 
 export const FooterItem = styled.span`
-  color: #8899a6;
-  cursor: pointer;
-  display: flex;
-  height: 3rem;
-  padding: .8rem;
-  position: relative;
-  width: 3.75rem;
-
-  &.light {
-    color: var(--highlight);
-    &:hover {
-      color: #e2e240;
-    }
-  }
-
-  &.display {
-    ${media.lessThan("large")`
-      display: none;
+  &.menu-links {
+    display: none;
+    ${media.lessThan("medium")`
+      display: block;
     `}
   }
-
-  &:hover {
-    color: var(--highlight);
-  }
+  ${media.lessThan("small")`
+    &.social-links {
+      display: none;
+    }
+  `}
 `

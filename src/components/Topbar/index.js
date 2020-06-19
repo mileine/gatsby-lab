@@ -9,8 +9,12 @@ const Topbar = () => (
   <S.TopbarWrapper>
     <Profile></Profile>
     <S.TopbarLinks>
-      <MenuLinks />
-      <MenuBar />
+      <S.TopbarItem className="menu-links">
+        <MenuLinks />
+      </S.TopbarItem>
+      <S.TopbarItem>
+        <MenuBar />
+      </S.TopbarItem>
     </S.TopbarLinks>
   </S.TopbarWrapper>
 )
