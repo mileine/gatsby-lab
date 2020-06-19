@@ -22,9 +22,12 @@ export const MenuLinksLink = styled(AniLink)`
   text-decoration: none;
   transition: color 0.5s;
   &:hover {
-    color: var(--highlight);
+    color: var(--menuItemHover);
   }
   ${media.lessThan("medium")`
     color: var(--texts);
+    &:hover {
+      color: var(--highlight);
+    }
   `}
 `

@@ -21,10 +21,6 @@ export const PostItemWrapper = styled.section`
   padding: 2rem;
   width: 100%;
   height: 100%;
-  transition: background .8s;
-  &:hover {
-    background: var(--postItemBackground);
-  }
   ${media.lessThan("large")`
     padding: 1.5rem 1rem;
   `}
