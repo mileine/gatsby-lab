@@ -12,9 +12,6 @@ export const RecommendedWrapper = styled.section`
   bottom: 3rem;
   width: 100%;
   z-index: 5;
-  ${media.lessThan("medium")`
-    bottom: 0;
-  `}
 `
 
 export const RecommendedLink = styled(AniLink)`
