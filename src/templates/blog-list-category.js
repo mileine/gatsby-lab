@@ -11,12 +11,12 @@ const PostListCategory = ({ pageContext, data }) => {
   const { edges, totalCount } = data.allMdx
   const tagHeader = `${totalCount} post${
     totalCount === 1 ? "" : "s"
-  } em "${category}"`
+  } post(s) na categoria: "${category}"`
 
   return (
     <Layout>
       <SEO title="Work"/>
-      <h1>{tagHeader}</h1>
+      <S.ListInfo>{tagHeader}</S.ListInfo>
       <S.ListWrapper>
         {edges.map(
           ({

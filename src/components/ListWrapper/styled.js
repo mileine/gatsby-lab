@@ -2,7 +2,6 @@ import styled from "styled-components"
 import media from "styled-media-query"
 
 export const ListWrapper = styled.section`
-  margin-top: 4rem;
   margin-bottom: 3rem;
   background-color: var(--background);
   display: flex;
@@ -28,4 +27,10 @@ export const ListItem = styled.section`
     width: 100%;
     border-right: none !important;
   `}
+`
+export const ListInfo = styled.h1`
+  color: var(--texts);
+  border-bottom: 1px dotted var(--borders);
+  margin-top: 4rem;
+  padding: 1rem 2rem;
 `

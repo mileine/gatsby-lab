@@ -74,14 +74,14 @@ const GlobalStyles = createGlobalStyle`
   body.light {
     --borders: #dedede;
     --postColor: #777;
-    --texts: #555555;
+    --texts: #777;
     --highlight: #129FA1;
     --mediumBackground: #f0f0f3;
     --background: #fdfdfd;
     --white: #f5f5f5;
     --black: #222;
     --green: #129FA1;
-    --topbarBackground: #491a4f;
+    --topbarBackground: #200b23;
     --postItemBackground: #f8f9fa;
     --lightHover: #cfdae7;
     --menuItemHover: #97f2f3;

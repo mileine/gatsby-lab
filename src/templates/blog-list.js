@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import PostItem from "../components/PostItem"
-import Pagination from "../components/Pagination"
 import * as S from "../components/ListWrapper/styled"
 
 const BlogList = props => {
@@ -12,6 +11,7 @@ const BlogList = props => {
   return (
     <Layout>
       <SEO title="Home"/>
+      <S.ListInfo>Todos os posts do blog em: "Tech" e "Pessoal"</S.ListInfo>
       <S.ListWrapper>
         {postList.map(
           ({

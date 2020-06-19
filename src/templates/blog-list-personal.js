@@ -11,6 +11,7 @@ const Personal = props => {
   return (
     <Layout>
       <SEO title="Personal"/>
+      <S.ListInfo>Todos os posts em: "Pessoal"</S.ListInfo>
       <S.ListWrapper>
         {postListPersonal.map(
           ({

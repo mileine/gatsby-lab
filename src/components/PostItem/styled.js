@@ -34,7 +34,7 @@ export const PostItemWrapper = styled.section`
   `}
 `
 
-export const PostItemTag = styled.div`
+export const PostItemTagLink = styled(AniLink)`
   align-items: center;
   background: ${props => props.background ? props.background : "var(--highlight)"};
   color: var(--white);
@@ -42,6 +42,8 @@ export const PostItemTag = styled.div`
   font-size: .8rem;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
   border-radius: 5px;
   padding: .2rem 1rem;
   min-width: auto;
@@ -70,6 +72,7 @@ export const PostItemInfo = styled.div`
 export const PostItemDate = styled.time`
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  color: var(--texts);
 `
 
 export const PostItemTitle = styled.h1`

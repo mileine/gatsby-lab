@@ -11,6 +11,7 @@ const PostListWork = props => {
   return (
     <Layout>
       <SEO title="Work"/>
+      <S.ListInfo>Todos os posts em: "Tech"</S.ListInfo>
       <S.ListWrapper>
         {postListWork.map(
           ({
