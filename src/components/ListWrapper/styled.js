@@ -3,7 +3,7 @@ import media from "styled-media-query"
 
 export const ListWrapper = styled.section`
   margin-top: 4rem;
-  margin-bottom: 5.7rem;
+  margin-bottom: 3rem;
   background-color: var(--background);
   display: flex;
   flex-wrap: wrap;
