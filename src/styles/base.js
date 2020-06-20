@@ -79,15 +79,16 @@ export const MainContent = styled.section`
     font-weight: 800;
     letter-spacing: 0.069rem;
     line-height: 1.4;
+    margin-bottom: 1rem;
   }
   h1 {
-    font-size: 1.8rem;
-  }
-  h2 {
     font-size: 1.6rem;
   }
-  h3 {
+  h2 {
     font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.3rem;
   }
   h4 {
     font-size: 1.2rem;
