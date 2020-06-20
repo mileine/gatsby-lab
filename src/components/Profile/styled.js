@@ -66,5 +66,5 @@ export const ProfileDescription = styled.span`
   `}
 ` 
 export const ProfileIcon = styled.span`
-  width: 35px;
-` 
+  width: 50px;
+`
