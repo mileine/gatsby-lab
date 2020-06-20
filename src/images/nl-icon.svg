@@ -1,4 +1,30 @@
 <svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #greater {
+            opacity: 0;
+            animation: show 1s 4s infinite;
+        }
+        #bar {
+            opacity: 0;
+            animation: show 1s 3s infinite;
+        }
+        #less {
+            opacity: 0;
+            animation: show 1s 1s infinite;
+        }
+        #heart {
+            opacity: 0;
+            animation: show 1s 2s infinite, beat 1.2s 4.5s ease-in-out 3;
+        }
+        @keyframes show {
+            0% { opacity: 1}
+            100% { opacity: 1 }
+        }
+        @keyframes beat {
+            0% { fill: red; }
+            100% { fill: pink; }
+        }
+    </style>
     <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="coding" transform="translate(22.000000, 45.000000)" fill="#129FA1" fill-rule="nonzero">
             <path d="M84.3654523,10.2713037 L70.0183408,3.33334612 C69.1365509,2.90647147 67.664639,2.88700271 66.7294109,3.28981796 C65.7956369,3.69230136 65.7522563,4.36447132 66.6347733,4.79101412 L79.4750746,10.9997782 L66.6347733,17.2092614 C65.7522563,17.6358042 65.7956369,18.3076423 66.7294109,18.7104575 C67.1792123,18.9040942 67.7538238,19 68.3262541,19 C68.9443674,19 69.5616325,18.8881653 70.018462,18.6675931 L84.3655735,11.7293036 C85.2114957,11.319796 85.2114957,10.6804795 84.3654523,10.2713037 Z" id="greater"></path>
