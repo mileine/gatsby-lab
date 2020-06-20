@@ -65,7 +65,7 @@ const GlobalStyles = createGlobalStyle`
     --white: #d7dce1;
     --black: #222;
     --topbarBackground: #192734;
-    --postItemBackground: #1d2a39;
+    --listInfoBackground: #16202c;
     --lightHover: #d4d400;
     --menuItemHover: #129FA1;
     --socialLinksHover: #74eeef;
@@ -82,7 +82,7 @@ const GlobalStyles = createGlobalStyle`
     --black: #222;
     --green: #129FA1;
     --topbarBackground: #200b23;
-    --postItemBackground: #f8f9fa;
+    --listInfoBackground: #f8f9fa;
     --lightHover: #cfdae7;
     --menuItemHover: #cfdae7;
     --socialLinksHover: #129FA1;

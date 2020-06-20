@@ -28,9 +28,11 @@ export const ListItem = styled.section`
     border-right: none !important;
   `}
 `
-export const ListInfo = styled.h1`
+export const ListInfo = styled.p`
   color: var(--texts);
+  background: var(--listInfoBackground);
   border-bottom: 1px dotted var(--borders);
   margin-top: 4rem;
-  padding: 1rem 2rem;
+  font-size: 0.8rem;
+  padding: 1rem 1rem;
 `
