@@ -40,7 +40,7 @@ collections:
           { label: 'frontend', value: '#e7508c' },
           { label: 'misc', value: '#0792ae' },
           { label: 'languages', value: '#008c82' },
-          { label: 'log', value: '#1a5e63' },
+          { label: 'gastby', value: '#663399' },
           { label: 'musica', value: '#15863d' },
           { label: 'refletindo', value: '#0c86d2' }
           { label: 'cursos', value: '#637a91' }
