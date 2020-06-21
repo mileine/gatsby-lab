@@ -1,0 +1,123 @@
+---
+date: 2020-06-21 01:04:23
+title: 'Logo do blog'
+description: Animando o SVG com CSS
+category: css
+background:  '#af125a'
+type: work
+published: true
+---
+
+Nesta semana, fiz algo que queria há algumas semanas para o blog: um logo. 
+
+## Montando o logo em SVG
+
+Eu já tinha a ideia rabiscada no papel sobre como o logo deveria ser.Mas quando comecei a montar, não resisti e adicionei uma animaçãozinha em CSS. Neste post, quero explicar como cheguei no resultado abaixo. 
+
+<iframe width="100%" height="300" src="//jsfiddle.net/mileine/bs05jn4L/45/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+Para de começar, gostaria de compartilhar que apesar da ideia do logo ter sido 100% minha, ele não foi desenhado do zero por mim. 
+
+Os créditos das partes que o compõem seguem abaixo. 
+
+- laptop: icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+- heart: icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+- code: icon made by <a href="https://www.flaticon.com/free-icon/coding_711284?term=code&page=3&position=35" title="Kiranshastry">Kiranshastry</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+## Como adicionei a animação
+
+No mês passado fiz mais um [curso do Willian Justen](https://www.udemy.com/share/101tmcB0oSeVtQ/). Desta vez, sobre SVG e, enquanto montava o logo, lembrei que é possível adicionar CSS num SVG para criar animações. =)
+
+Apesar do medo de parecer a tia louca do ``marquee`` ou do ``blink`` - sim, já usei com orgulho muito essas propriedades nos meus HTMLs no final dos anos 90. Acho que até o Google tem saudades do [marquee](https://www.google.com/search?rlz=1C5CHFA_enBR726BR726&sxsrf=ALeKk013rQPSVYSoGkwMbas0Xs1RsA0qdA%3A1592708575083&ei=383uXrXUBIW-5OUP3KWvyA8&q=marquee+html&oq=marquee+html&gs_lcp=CgZwc3ktYWIQAzICCAAyBggAEAcQHjIGCAAQBxAeMgIIADIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjoECAAQRzoICAAQBxAeEBNQ1rQFWPu7BWDVvwVoAHABeACAAYMBiAGtBpIBAzAuN5gBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwj1v-Tm9ZHqAhUFH7kGHdzSC_kQ4dUDCAw&uact=5) e do [blink](https://www.google.com/search?rlz=1C5CHFA_enBR726BR726&sxsrf=ALeKk03oL6gLuWgnAe7jH8TvnWwQlMX9kA%3A1592708569933&ei=2c3uXofEOOPZ5OUPoLez4AY&q=blink+html&oq=blink+html&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgIIADICCAAyAggAMgYIABAHEB4yBggAEAcQHjoECAAQRzoFCAAQsQNQlhhYxh9gxSJoAHABeACAAZIBiAGQApIBAzAuMpgBAKABAaoBB2d3cy13aXo&sclient=psy-ab&ved=0ahUKEwjHlKrk9ZHqAhXjLLkGHaDbDGwQ4dUDCAw&uact=5).
+
+Momento esquilo passou. Seguindo.
+
+### 1. Preparando o SVG
+
+No SVG, adicionei ids aos grupos de ``path`` que representavam o **laptop**, o **coração** e o cada parte do símbolo de **código**. 
+
+```html
+  <g id="coding" transform="translate(22.000000, 45.000000)" fill="#129FA1" fill-rule="nonzero">
+```
+
+### 2. Adicionando estilos dentro do SVG
+
+No fluxo da animação que imaginei, cada elemento deveria 'aparecer' na tela, um a um. Depois, o coração pulsaria 3 vezes até voltar para seu estado normal.
+
+Para a tela iniciar vazia, todos os elementos devem ter ``opacity: 0``.
+
+```css
+  <style>
+    #less {
+      opacity: 0;
+    }
+    #heart {
+      opacity: 0;
+    }
+    #bar {
+      opacity: 0;
+    }
+    #greater {
+      opacity: 0;
+    }
+  </style>
+```
+
+### 3. Definindo as animações 
+
+Precisamos definir a animação para fazer cada elemento 'aparecer':
+
+```css
+  @keyframes show {
+    0% { opacity: 1}
+    100% { opacity: 1 }
+  }
+```
+
+E depois, precisamos fazer o coração pulsar. Decidir fazer isso alternando as cores entre uma mais escura e outra mais clara que a cor definida para o logo. 
+
+```css
+  @keyframes beat {
+    0% { fill: red; }
+    100% { fill: pink; }
+  }
+```
+
+### 4. Aplicando as animações a cada elemento
+
+Para finalizar, adicionamos as animações em cada elemento, considerando os delays necessários:
+
+```css
+  #less {
+    opacity: 0;
+    animation: show 1s 1s infinite;
+  }
+  #heart {
+    opacity: 0;
+    animation: show 1s 2s infinite, beat 1.2s 4.5s ease-in-out 3;
+  }
+  #bar {
+    opacity: 0;
+    animation: show 1s 3s infinite;
+  }
+  #greater {
+    opacity: 0;
+    animation: show 1s 4s infinite;
+  }
+```
+
+### 5. E assim segue minha primeira animação em SVG. 
+
+<iframe width="100%" height="300" src="//jsfiddle.net/mileine/bs05jn4L/45/embedded/result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+
+Imagino que ainda há muito o que melhorar em design, animação e código deste logo. Mas estou bem feliz com o resultado até agora.  
+
+Algo que pode parecer tão pequeno aos olhos alheios, para mim, carrega muito significado. Neste trabalho, coloquei todo o amor que tenho por esse caminho que estou só começando a trilhar em Front-End, meu desejo de aprender todos os dias e minha gratidão poder evoluir numa área que eu mesma escolhi.
+
+E este trabalho, dedico de coração para a pequena Mi de 15 anos, aquela em quem sempre penso quando ouço a música da <a href="/rene-liu-letter/">Rene Lui</a>. Aquela que já gostava da web. Gostava de fazer sites usando *Comic Sans*, achava que design era usar muito ``<frame>``, ``blink``, ``marquee`` e GIFs de estrela como *background*. E que domínio legal era **.cjb.net**. 
+
+Espero que esteja curtindo ver como as coisas evoluíram por aqui, florzinha. 
+
+Seguimos juntas.  
+
+ღღღ

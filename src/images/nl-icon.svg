@@ -1,13 +1,5 @@
 <svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <style>
-        #greater {
-            opacity: 0;
-            animation: show 1s 4s infinite;
-        }
-        #bar {
-            opacity: 0;
-            animation: show 1s 3s infinite;
-        }
         #less {
             opacity: 0;
             animation: show 1s 1s infinite;
@@ -15,6 +7,14 @@
         #heart {
             opacity: 0;
             animation: show 1s 2s infinite, beat 1.2s 4.5s ease-in-out 3;
+        }
+        #bar {
+            opacity: 0;
+            animation: show 1s 3s infinite;
+        }
+        #greater {
+            opacity: 0;
+            animation: show 1s 4s infinite;
         }
         @keyframes show {
             0% { opacity: 1}
