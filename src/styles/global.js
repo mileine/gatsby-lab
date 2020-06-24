@@ -69,6 +69,8 @@ const GlobalStyles = createGlobalStyle`
     --lightHover: #d4d400;
     --menuItemHover: #129FA1;
     --socialLinksHover: #74eeef;
+    --display-dark-logo: block;
+    --display-light-logo: none;
   }
 
   body.light {
@@ -86,6 +88,8 @@ const GlobalStyles = createGlobalStyle`
     --lightHover: #cfdae7;
     --menuItemHover: #cfdae7;
     --socialLinksHover: #129FA1;
+    --display-dark-logo: none;
+    --display-light-logo: block;
   }
 `
 

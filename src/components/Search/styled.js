@@ -64,3 +64,11 @@ export const SearchStatsWrapper = styled.div`
       flex-direction: column; 
     `}
 `
+export const AlgoliaLogoWrapper = styled.div`
+  &.light {
+    display: var(--display-light-logo);
+  }
+  &.dark {
+    display: var(--display-dark-logo)
+  }
+`
