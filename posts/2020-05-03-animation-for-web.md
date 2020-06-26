@@ -5,7 +5,7 @@ description: >-
   projects for web.
 date: '2019-03-07 03:09:37'
 category: design
-background: '#800080'
+background: '--cat-design'
 thumbnail: assets/img/undraw_animating_1rgh.png
 type: work
 published: true

@@ -2,8 +2,8 @@
 date: 2020-05-06 05:54:23
 title: Sobre um Eremita
 description: Para refletir todos os dias. 
-category: 'refletindo'
-background: "#0c86d2"
+category: 'life-101'
+background: "--cat-life-101"
 type: personal
 published: true
 ---

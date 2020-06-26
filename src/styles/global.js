@@ -55,6 +55,20 @@ const GlobalStyles = createGlobalStyle`
   border-spacing: 0;
   }
 
+  body {
+    --cat-design: #800080; 
+    --cat-acessibilidade: #812d8a; 
+    --cat-css: #af125a; 
+    --cat-frontend: #e7508c; 
+    --cat-misc: #0792ae;
+    --cat-languages: #008c82; 
+    --cat-gastby: #663399;
+    --cat-musica: #15863d;
+    --cat-life-101: #0c86d2;
+    --cat-career-101: #0a6ead;
+    --cat-cursos: #637a91;
+  }
+
   body.dark {
     --borders: #38444d;
     --texts: #d7dce1;

@@ -34,17 +34,21 @@ collections:
         name: "background",
         widget: "select",
         options: [
-          { label: 'design', value: '#800080' },
-          { label: 'acessibilidade', value: '#812d8a' },
-          { label: 'css', value: '#af125a' },
-          { label: 'frontend', value: '#e7508c' },
-          { label: 'misc', value: '#0792ae' },
-          { label: 'languages', value: '#008c82' },
-          { label: 'gastby', value: '#663399' },
-          { label: 'musica', value: '#15863d' },
-          { label: 'refletindo', value: '#0c86d2' }
-          { label: 'cursos', value: '#637a91' }
+          { label: 'design', value: '--cat-design' },
+          { label: 'acessibilidade', value: '--cat-acessibilidade' },
+          { label: 'css', value: '--cat-css' },
+          { label: 'frontend', value: '--cat-frontend' },
+          { label: 'misc', value: '--cat-misc' },
+          { label: 'languages', value: '--cat-languages' },
+          { label: 'gastby', value: '--cat-gastby' },
+          { label: 'musica', value: '--cat-musica' },
+          { label: 'life-101', value: '--cat-life-101' },
+          { label: 'career-101', value: '--cat-career-101' },
+          { label: 'cursos', value: '--cat-cursos' }
         ]
       }
       - { label: "image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+
+          

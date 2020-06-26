@@ -3,7 +3,7 @@ title: Learn Vuex by Example - Handling Vue State Management
 description: Very easy to follow and a great start to Vuex
 date: '2020-02-05 11:43:46'
 category: frontend
-background: '#e7508c'
+background: '--cat-frontend'
 thumbnail: assets/img/undraw-tutorial.png
 type: work
 published: true

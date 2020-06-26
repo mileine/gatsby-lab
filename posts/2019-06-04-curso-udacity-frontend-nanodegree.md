@@ -3,7 +3,7 @@ title: '[Curso] Udacity - Frontend Nanodegree'
 description: Review do curso da plataforma Udacity
 date: '2019-06-04 03:54:23'
 category: cursos
-background: '#637a91'
+background: '--cat-cursos'
 thumbnail: assets/img/undraw_youtube_tutorial_2gn3.png
 type: work
 published: true

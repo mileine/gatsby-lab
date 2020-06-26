@@ -41,7 +41,7 @@ export const PostDate = styled.p`
 `
 export const PostTag = styled(AniLink)`
   align-items: center;
-  background: ${props => props.background ? props.background : "var(--highlight)"};
+  background: ${props => props.background ? `var(${props.background})` : "var(--highlight)"};
   width: min-content;
   color: #fff;
   display: flex;

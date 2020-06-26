@@ -3,7 +3,7 @@ title: Aprenda idiomas com Netflix
 description: Minha extensão do Chrome favorita
 date: '2020-05-03 07:08:35'
 category: languages
-background: '#008c82'
+background: '--cat-languages'
 thumbnail: assets/img/undraw_around_the_world_v9nu.png
 type: work
 published: true

@@ -3,7 +3,7 @@ title: Flow - Get in the Zone
 description: 'Achei esse post num blog antigo e trouxe ele pra cá. :)'
 date: '2018-10-17 03:54:23'
 category: misc
-background: '#0792ae'
+background: '--cat-misc'
 thumbnail: assets/img/undraw_cup_of_tea_6nqg.png
 type: personal
 published: true
