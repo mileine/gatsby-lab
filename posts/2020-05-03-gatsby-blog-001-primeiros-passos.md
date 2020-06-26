@@ -3,7 +3,7 @@ title: 'Gatsby Blog - #001: Primeiros passos'
 description: Rascunhando a carinha do blog
 date: '2020-05-03 01:14:11'
 category: gatsby
-background: '--cat-gastby'
+background: '--cat-gatsby'
 thumbnail: assets/img/undraw_work_in_progress_uhmv.png
 type: work
 published: true

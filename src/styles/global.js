@@ -62,7 +62,7 @@ const GlobalStyles = createGlobalStyle`
     --cat-frontend: #e7508c; 
     --cat-misc: #0792ae;
     --cat-languages: #008c82; 
-    --cat-gastby: #663399;
+    --cat-gatsby: #663399;
     --cat-musica: #15863d;
     --cat-life-101: #0c86d2;
     --cat-career-101: #0a6ead;

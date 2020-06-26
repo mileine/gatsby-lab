@@ -40,7 +40,7 @@ collections:
           { label: 'frontend', value: '--cat-frontend' },
           { label: 'misc', value: '--cat-misc' },
           { label: 'languages', value: '--cat-languages' },
-          { label: 'gastby', value: '--cat-gastby' },
+          { label: 'gatsby', value: '--cat-gatsby' },
           { label: 'musica', value: '--cat-musica' },
           { label: 'life-101', value: '--cat-life-101' },
           { label: 'career-101', value: '--cat-career-101' },
