@@ -67,6 +67,7 @@ const GlobalStyles = createGlobalStyle`
     --cat-life-101: #0c86d2;
     --cat-career-101: #0a6ead;
     --cat-cursos: #637a91;
+    --cat-creative-work: #590059;
   }
 
   body.dark {

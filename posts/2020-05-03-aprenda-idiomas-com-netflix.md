@@ -5,7 +5,7 @@ date: '2020-05-03 07:08:35'
 category: languages
 background: '--cat-languages'
 thumbnail: assets/img/undraw_around_the_world_v9nu.png
-type: work
+type: personal
 published: true
 ---
 

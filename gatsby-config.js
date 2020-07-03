@@ -73,6 +73,7 @@ module.exports = {
           `gatsby-remark-responsive-iframe`,
           `gatsby-remark-lazy-load`,
           `gatsby-remark-prismjs`,
+          `gatsby-remark-copy-linked-files`
         ],
       },
     },
