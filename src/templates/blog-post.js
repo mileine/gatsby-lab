@@ -25,7 +25,7 @@ const BlogPost = ({ data, pageContext }) => {
             to={'/categories/' + post.frontmatter.category}
             activeClassName="active">{post.frontmatter.category}</S.PostTag>
         <S.PostDate>
-          {post.frontmatter.date} • {post.timeToRead} min de leitura
+          {post.frontmatter.date}
         </S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
         <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
@@ -54,7 +54,6 @@ export const query = graphql`
         category
       }
       body
-      timeToRead
     }
   }
 `
