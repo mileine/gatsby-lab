@@ -1,6 +1,5 @@
 import React from "react"
 import propTypes from "prop-types"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
