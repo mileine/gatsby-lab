@@ -15,6 +15,6 @@ export const LayoutMainContent = styled.section`
   margin-top: 4rem;
   padding: 3rem;
   ${media.lessThan("large")`
-    padding: 2rem 3rem;
+    padding: 2rem 3rem 3rem 3rem;
   `}
 `
