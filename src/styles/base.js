@@ -15,14 +15,14 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--postColor);
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
     line-height: 1.4;
     letter-spacing: 0.069rem;
     padding: 0;
   }
   p {
-    margin: 0 0 1.6rem 0;
+    margin: 0 0 1.2rem 0;
   }
   ul,
   ol {
@@ -86,6 +86,7 @@ export const MainContent = styled.section`
   }
   h2 {
     font-size: 1.4rem;
+    margin-top: 2.4rem;
   }
   h3 {
     font-size: 1.3rem;
