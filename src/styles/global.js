@@ -35,14 +35,13 @@ const GlobalStyles = createGlobalStyle`
     line-height: 1;
     background: #16202c;
     font-size: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', sans-serif;
   }
   ol, ul {
   list-style: none;
   }
   blockquote, q {
     quotes: none;
-    font-family: 'Poiret One', sans-serif;
     font-weight: 300;
   }
   blockquote:before, blockquote:after,

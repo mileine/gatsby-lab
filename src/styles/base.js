@@ -15,7 +15,7 @@ export const MainContent = styled.section`
   iframe,
   .button-post {
     color: var(--postColor);
-    font-size: 1rem;
+    font-size: 1.125rem;
     font-weight: 300;
     line-height: 1.4;
     letter-spacing: 0.069rem;
