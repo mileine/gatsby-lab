@@ -23,6 +23,7 @@ export const MainContent = styled.section`
   }
   p {
     margin: 0 0 1.2rem 0;
+    font-size: 1rem
   }
   ul,
   ol {
@@ -31,6 +32,7 @@ export const MainContent = styled.section`
     margin: 0 auto 1.6rem;
   }
   li {
+    font-size: 1rem;
     padding: 0.625rem 0;
     & > ul {
       margin-bottom: 0;
@@ -85,7 +87,7 @@ export const MainContent = styled.section`
     font-size: 1.6rem;
   }
   h2 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     margin-top: 2.4rem;
   }
   h3 {

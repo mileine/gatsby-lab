@@ -86,10 +86,11 @@ module.exports = {
             variants: [`400`,`300`]
           },{
             family: `Montserrat`,
-            variants: [`400`]
+            variants: [`400`,`700`,`italic`,`bold`]
           },
           {
-            family: `Poiret One`
+            family: `Quattrocento Sans`,
+            variants: [`400`,`700`,`italic`,`bold`]
           }
         ],
       },
