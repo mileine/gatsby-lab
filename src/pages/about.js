@@ -59,25 +59,22 @@ const AboutPage = () => {
         <h2>Quem escreve?</h2>
 
         <p><a href="https://www.linkedin.com/in/mileinesouto/">Mileine</a> - ou Mi. O que for mais fácil lembrar. =)</p>
-        <p> Hmmm... É difícil falar sobre nós mesmos, não é?</p>
-        <p>Resumindo, sou apaixonada pelos temas que descrevem este blog: </p>
+        <p>Em resumo, sou apaixonada pelos temas que descrevem este blog: </p>
         <ul>
-          <li>Front-end: minha área de especialização.</li>  
+          <li>Frontend: minha área de especialização.</li>  
           <li>CSS: meu crush dentro da minha área de especialização. LOL!</li> 
           <li>Creative work: atividades que relaxam meu cérebro e o preparam para tarefas do dia-a-dia.</li> 
-          <li>Languages: minha primeira paixão. E que vou levar para vida toda.</li> 
-          <li>❤ : tudo o que me faz crescer. Músicas, palestras, livros, textos...</li>        
+          <li>Languages: minha primeira paixão. E daquelas que vou levar para vida toda.</li> 
+          <li>❤ : tudo o que me alegria e me faz crescer. Músicas, palestras, livros, textos...</li>        
         </ul> 
 
-        <p>Ah! Também sou apaixonada por uma banda chamada Mayday 五月天.</p>
+        <p>Vale mencionar que sou apaixonada também por uma banda taiwanesa chamada Mayday 五月天.</p>
 
         <hr/>
 
         <h2>Motivação</h2>
 
-        <p>Escrevo para Mi do futuro. Especialmente para a Mi do Front-end.</p>
-
-        <p>Escrevo para registrar aprendizados na área, porque sei que cada "não sei nem por onde começar" que se torna um "consegui!" serve como combustível para seguir em frente e continuar trabalhando. :)</p>
+        <p>Escrevo para registrar aprendizados principalmente na área de Frontend, porque sei que cada "não sei nem por onde começar" que se torna um "consegui!" serve como combustível para seguir em frente e continuar trabalhando. :)</p>
 
         <p>加油！加油！</p>
       </S.LayoutMainContent>
