@@ -1,6 +1,5 @@
 import React from 'react' 
 import Layout from "../components/Layout"
-import ThemeButton from "../components/ThemeButton"
 import SEO from "../components/seo"
 import { MainContent } from '../styles/base'
 import * as S from "../components/Layout/styled"
@@ -16,8 +15,7 @@ const AboutPage = () => {
     <SEO title="About"/>
       <S.LayoutMainContent>
         <h1>Sobre este blog</h1>
-        <p> TL;DR - Um caderno digital pessoal e um playground para Gatsby, React e CSS. ❤ </p>
-        <h2>Como começou</h2>
+        
         <p>Este blog foi desenvolvido durante <a href="https://www.udemy.com/course/gatsby-crie-um-site-pwa-com-react-graphql-e-netlify-cms/">o curso de Gatsby</a> que fiz pela Udemy com o instrutor <a href="https://willianjusten.com.br/">Willian Justen.</a> Ali ele ensina passo-a-passo como criar um blog igual ao dele utilizando <a href="https://www.gatsbyjs.org/">Gatsby</a>. Recomendo muito e falo um pouquinho mais sobre o curso <a href="/curso-gatsby/">aqui</a>.</p>
 
         <p>Terminado o curso, a era criar um blog completamente do zero. Mas, depois de um tempo tentando, percebi que estava patinando em conceitos muito básicos. Acabei passando muito tempo travada na frente do computador sem evoluir nada - e isso não é o jeito mais motivante de aprender coisas novas depois de um dia de trabalho. Acabei desanimando.</p>
@@ -28,55 +26,19 @@ const AboutPage = () => {
 
         <blockquote><p>"learning is hard, and it's humbling" ( <a href="https://css-tricks.com/learning-to-learn/">Learning to learn, by Sarah Drasner</a>)</p></blockquote>
 
-        <hr/>
-
-        <h2>Conteúdo</h2>
-
-        <p>Este blog é um caderno digital pessoal. Um lugar para organizar referências e registrar aprendizados sobre assuntos de interesse profissional e pessoal, como:</p>
-
-        <ul>
-          <li>Front-end</li>  
-          <li>CSS</li> 
-          <li>Creative work</li> 
-          <li>Languages</li> 
-          <li>❤</li>        
-        </ul> 
-        
-        <p>Com o passar <strike>das décadas</strike> dos anos, acabei guardando esse tipo de informação em diferentes plataformas: evernote, google keep, e-mails, whatsapp, playlists do Youtube e blogs antigos.</p>
-        
-        <p>Por isso, o Gatsby caiu como uma luva para uma necessidade antiga, pois ele realmente me permite criar um caderno digital, com a minha cara, de acordo com as minhas necessidades. Estou organizando e refinando o conteúdo aos poucos, enquanto vou aprendendo sobre Gatsby e tecnologias relacionadas.</p>
-
-        <p>Este blog também é um playground para brincar com Gatsby, React.JS e CSS. Para testar ideias como essa que aprendi com o vídeo do <a href="https://youtu.be/ad9f-EYtWPo">WebDevEducation</a>:</p>
-
-        <ThemeButton toggled={toggled} onClick={handleClick}/>
-
-        <p>Sim, sou bem apaixonadinha por animações CSS.</p> 
-        
-        <p>Ainda engatinhando nesse universo de possibilidades criadas por tecnologias web modernas, ando me segurando para não transformar esse blog num carnaval, hihi. Confesso que comecei a construir esse componente para ser o botão para trocar o tema do blog (facepalm).</p>
-
-        <hr/>
-
         <h2>Quem escreve?</h2>
 
         <p><a href="https://www.linkedin.com/in/mileinesouto/">Mileine</a> - ou Mi. O que for mais fácil lembrar. =)</p>
-        <p>Em resumo, sou apaixonada pelos temas que descrevem este blog: </p>
-        <ul>
-          <li>Frontend: minha área de especialização.</li>  
-          <li>CSS: meu crush dentro da minha área de especialização. LOL!</li> 
-          <li>Creative work: atividades que relaxam meu cérebro e o preparam para tarefas do dia-a-dia.</li> 
-          <li>Languages: minha primeira paixão. E daquelas que vou levar para vida toda.</li> 
-          <li>❤ : tudo o que me alegria e me faz crescer. Músicas, palestras, livros, textos...</li>        
-        </ul> 
 
-        <p>Vale mencionar que sou apaixonada também por uma banda taiwanesa chamada Mayday 五月天.</p>
+        <p>Sou Analista de Software, direcionando minha carreira para desenvolvimento Frontend. Das diferentes áreas em que já trabalhei em TI, construir interfaces para web é - de loooonge - minha favorita.
+        </p>
 
-        <hr/>
+        <p>Meu gosto por construir UIs para web também tem me levado a buscar conhecimentos na área de Design, outro tema que aparecerá com frequência por aqui.</p>
 
-        <h2>Motivação</h2>
+        <p>Por isso, escrevo para guardar e compartilhar boas referências de cursos, palestras, artigos em Frontend e Design.</p>
 
-        <p>Escrevo para registrar aprendizados principalmente na área de Frontend, porque sei que cada "não sei nem por onde começar" que se torna um "consegui!" serve como combustível para seguir em frente e continuar trabalhando. :)</p>
+        <p>Escrevo também para registrar aprendizados em Frontend, porque sei que cada "não sei nem por onde começar" que se torna um "consegui!" serve como combustível para seguir em frente e continuar trabalhando - feliz. 😊❤️</p>
 
-        <p>加油！加油！</p>
       </S.LayoutMainContent>
     </MainContent>
   </Layout>
