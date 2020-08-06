@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `#nowLearning`,
     position: `Frontend/UI dev`,
-    description: `{ Frontend, CSS, Creative work, Languages, ❤ }`,
+    description: `{ Frontend, CSS and Creative work }`,
     author: `@myblog`,
     siteUrl: `https://mileine.netlify.com/`
   },
@@ -90,7 +90,7 @@ module.exports = {
           },
           {
             family: `Quattrocento Sans`,
-            variants: [`400`,`700`,`italic`,`bold`]
+            variants: [`400`,`700`,`400i`]
           }
         ],
       },

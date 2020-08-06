@@ -6,7 +6,7 @@ category: languages
 background: '--cat-languages'
 thumbnail: assets/img/undraw_around_the_world_v9nu.png
 type: personal
-published: true
+published: false
 ---
 
 `youtube: https://youtu.be/pMrWX2dlGIM`

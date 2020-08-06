@@ -6,7 +6,7 @@ category: cursos
 background: '--cat-cursos'
 thumbnail: assets/img/undraw_youtube_tutorial_2gn3.png
 type: work
-published: true
+published: false
 ---
 ![Youtube Tutorial - illustration by undraw.co](assets/img/undraw_youtube_tutorial_2gn3.png "Youtube Tutorial - illustration by undraw.co")
 

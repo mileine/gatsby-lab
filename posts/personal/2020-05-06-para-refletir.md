@@ -5,7 +5,7 @@ description: Para refletir todos os dias.
 category: 'life-101'
 background: "--cat-life-101"
 type: personal
-published: true
+published: false
 ---
 
 Um velho Eremita refugiou-se nas montanhas para se dedicar à meditação e oração. Ele costumava ser visto como muito ocupado.

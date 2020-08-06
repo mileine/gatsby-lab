@@ -6,7 +6,7 @@ category: 'musica'
 background: '--cat-musica'
 thumbnail: assets/img/nowplaying_mayday_tough.png
 type: personal
-published: true
+published: false
 ---
 
 `youtube: https://www.youtube.com/watch?v=YKiMrg6rgYQ`
