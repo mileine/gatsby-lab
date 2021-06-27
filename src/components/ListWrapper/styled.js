@@ -36,7 +36,7 @@ export const ListInfo = styled.p`
   color: var(--texts);
   background: var(--listInfoBackground);
   border-bottom: 1px dotted var(--borders);
-  margin-top: 4rem;
+  margin-top: 4.4rem;
   font-size: 0.8rem;
   padding: 1rem 1rem;
 `
