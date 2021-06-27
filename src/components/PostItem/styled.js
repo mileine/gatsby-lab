@@ -32,6 +32,7 @@ export const PostItemWrapper = styled.section`
 
 export const PostItemTagLink = styled(AniLink)`
   align-items: center;
+  display: block;
   background: ${props => props.background ? `var(${props.background})` : "var(--highlight)"};
   color: var(--white);
   display: flex;
@@ -45,7 +46,6 @@ export const PostItemTagLink = styled(AniLink)`
   min-width: auto;
   min-height: auto;
   font-size: 1rem;
-  margin-bottom: .5rem; 
 `
 
 export const PostItemHeader = styled.div`
