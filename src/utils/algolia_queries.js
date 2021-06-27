@@ -2,9 +2,6 @@ require("dotenv").config()
 
 const postQuery = `{
   posts: allMdx(
-    filter: {
-      frontmatter: { published: { eq: true } }
-    }
     sort: { fields: frontmatter___date, order: DESC }){
     edges {
       node {

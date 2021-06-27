@@ -17,7 +17,7 @@ const PostListCategory = ({ pageContext, data }) => {
     <Layout>
       <SEO title="Work"/>
       <S.ListInfo>{tagHeader}</S.ListInfo>
-      <S.ListWrapper>
+      <S.ListWrapper className="category-page">
         {edges.map(
           ({
             node: {

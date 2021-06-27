@@ -7,6 +7,9 @@ export const ListWrapper = styled.section`
   background-color: var(--background);
   display: flex;
   flex-wrap: wrap;
+  &.category-page {
+    margin-top: 0;
+  }
 `
 export const ListItem = styled.section`
   box-sizing: border-box;

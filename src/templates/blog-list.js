@@ -42,7 +42,7 @@ export const query = graphql`
   query PostList {
     allMdx (
       filter: {
-        frontmatter: { published: { eq: true } }
+        frontmatter: { published: { eq: true }}
       }
       sort: { fields: frontmatter___date, order: DESC} 
     ) {
