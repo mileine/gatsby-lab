@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react"
-import { SearchAlt2 as Search } from "styled-icons/boxicons-regular/SearchAlt2"
 import { Home } from "styled-icons/boxicons-solid/Home"
 import { Bulb as BulbOff } from "styled-icons/boxicons-regular/Bulb"
 import { Bulb } from "styled-icons/boxicons-solid/Bulb"
@@ -33,9 +32,6 @@ const MenuBar = () => {
         direction="right"
         bg={getThemeColor()}
         duration={0.6} title="Pesquisar">
-        <S.MenuBarItem>
-          <Search></Search>
-        </S.MenuBarItem>
       </S.MenuBarLink>
       <S.MenuBarItem title="Mudar o tema" onClick={() => {
         window.__setPreferredTheme(isDarkMode ? 'light': 'dark')
