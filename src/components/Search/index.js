@@ -19,17 +19,17 @@ const Search = () => {
   return (
     <S.SearchWrapper>
       <S.CatListWrapper>
-        <S.CatLink background='--cat-design' to='categories/design' cover direction="right" bg={getThemeColor()} duration={0.6}>design</S.CatLink>
-        <S.CatLink background='--cat-acessibilidade' to='categories/acessibilidade' cover direction="right" bg={getThemeColor()} duration={0.6}>acessibilidade</S.CatLink>
-        <S.CatLink background='--cat-css' to='categories/css' cover direction="right" bg={getThemeColor()} duration={0.6}>css</S.CatLink>
-        <S.CatLink background='--cat-frontend' to='categories/frontend' cover direction="right" bg={getThemeColor()} duration={0.6}>frontend</S.CatLink>
-        <S.CatLink background='--cat-languages' to='categories/languages' cover direction="right" bg={getThemeColor()} duration={0.6}>languages</S.CatLink>
-        <S.CatLink background='--cat-gatsby' to='categories/gatsby' cover direction="right" bg={getThemeColor()} duration={0.6}>gatsby</S.CatLink>
-        <S.CatLink background='--cat-learning-log' to='categories/musica' cover direction="right" bg={getThemeColor()} duration={0.6}>learning-log</S.CatLink>
-        <S.CatLink background='--cat-life-101' to='categories/life-101' cover direction="right" bg={getThemeColor()} duration={0.6}>life-101</S.CatLink>
-        <S.CatLink background='--cat-career-101' to='categories/career-101' cover direction="right" bg={getThemeColor()} duration={0.6}>career-101</S.CatLink>
-        <S.CatLink background='--cat-cursos' to='categories/cursos' cover direction="right" bg={getThemeColor()} duration={0.6}>cursos</S.CatLink>
-        <S.CatLink background='--cat-misc' to='categories/misc' cover direction="right" bg={getThemeColor()} duration={0.6}>misc</S.CatLink>
+        <S.CatLink background='--cat-design' to='/categories/design' cover direction="right" bg={getThemeColor()} duration={0.6}>design</S.CatLink>
+        <S.CatLink background='--cat-acessibilidade' to='/categories/acessibilidade' cover direction="right" bg={getThemeColor()} duration={0.6}>acessibilidade</S.CatLink>
+        <S.CatLink background='--cat-css' to='/categories/css' cover direction="right" bg={getThemeColor()} duration={0.6}>css</S.CatLink>
+        <S.CatLink background='--cat-frontend' to='/categories/frontend' cover direction="right" bg={getThemeColor()} duration={0.6}>frontend</S.CatLink>
+        <S.CatLink background='--cat-languages' to='/categories/languages' cover direction="right" bg={getThemeColor()} duration={0.6}>languages</S.CatLink>
+        <S.CatLink background='--cat-gatsby' to='/categories/gatsby' cover direction="right" bg={getThemeColor()} duration={0.6}>gatsby</S.CatLink>
+        <S.CatLink background='--cat-learning-log' to='/categories/musica' cover direction="right" bg={getThemeColor()} duration={0.6}>learning-log</S.CatLink>
+        <S.CatLink background='--cat-life-101' to='/categories/life-101' cover direction="right" bg={getThemeColor()} duration={0.6}>life-101</S.CatLink>
+        <S.CatLink background='--cat-career-101' to='/categories/career-101' cover direction="right" bg={getThemeColor()} duration={0.6}>career-101</S.CatLink>
+        <S.CatLink background='--cat-cursos' to='/categories/cursos' cover direction="right" bg={getThemeColor()} duration={0.6}>cursos</S.CatLink>
+        <S.CatLink background='--cat-misc' to='/categories/misc' cover direction="right" bg={getThemeColor()} duration={0.6}>misc</S.CatLink>
       </S.CatListWrapper>  
       <InstantSearch
         appId={algolia.appId}
