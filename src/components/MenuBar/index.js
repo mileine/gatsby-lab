@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Home } from "styled-icons/boxicons-solid/Home"
 import { Bulb as BulbOff } from "styled-icons/boxicons-regular/Bulb"
 import { Bulb } from "styled-icons/boxicons-solid/Bulb"
-
+import { SearchAlt2 as Search } from "styled-icons/boxicons-regular/SearchAlt2"
 import getThemeColor from "../../utils/getThemeColor"
 
 import * as S from "./styled"
@@ -27,6 +27,14 @@ const MenuBar = () => {
         <S.MenuBarItem className="home">
           <Home></Home>
         </S.MenuBarItem>
+      </S.MenuBarLink>
+      <S.MenuBarLink to="/search/" cover
+          direction="right"
+          bg={getThemeColor()}
+          duration={0.6} title="Pesquisar">
+          <S.MenuBarItem>
+            <Search></Search>
+          </S.MenuBarItem>
       </S.MenuBarLink>
       <S.MenuBarItem title="Mudar o tema" onClick={() => {
         window.__setPreferredTheme(isDarkMode ? 'light': 'dark')
