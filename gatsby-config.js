@@ -77,24 +77,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Open Sans`,
-            variants: [`400`,`300`]
-          },{
-            family: `Montserrat`,
-            variants: [`400`,`700`,`italic`,`bold`]
-          },
-          {
-            family: `Quattrocento Sans`,
-            variants: [`400`,`700`,`400i`]
-          }
-        ],
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
